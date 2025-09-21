@@ -53,7 +53,8 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 <h1 id="white_check_mark-requisitos">✅ Requisitos</h1> 
 
-### Requisitos Funcionais:
+<details>
+  <summary>⚙️ Requisitos Funcionais</summary>
 
 | ID | Requisito |
 | :--- | :--- |
