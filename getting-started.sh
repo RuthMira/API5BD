@@ -44,9 +44,9 @@ git submodule update --init --recursive &&
 ) &&
 
 # Configura o template de commit, o commit-msg e os hooks nos submodulos
-git submodule foreach
+git submodule foreach "
 (
-    git config commit.template "$MAIN_REPO_ROOT/$GIT_DIR/template/.commit-template.txt" &&
-    chmod +x "$MAIN_REPO_ROOT/$GIT_DIR/hooks/commit-msg" &&
-    git config core.hooksPath "$MAIN_REPO_ROOT/$GIT_DIR/hooks"
-)
+    git config commit.template '$MAIN_REPO_ROOT/$GIT_DIR/template/.commit-template.txt' &&
+    chmod +x '$MAIN_REPO_ROOT/$GIT_DIR/hooks/commit-msg' &&
+    git config core.hooksPath '$MAIN_REPO_ROOT/$GIT_DIR/hooks'
+)"
