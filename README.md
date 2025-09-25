@@ -15,8 +15,6 @@
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> •
   <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma da API </a>
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
-  <a href="#gear-estrutura-do-projeto"> Estrutura do Projeto </a> •
-  <a href="#gear-manual-de-instalacao"> Manual de Instalação </a> •
   <a href="#gear-documentacoes"> Documentações </a> •
 
 </p>
@@ -88,117 +86,6 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 | **RNF04** | As interfaces da aplicação devem ser intuitivas e de fácil uso, proporcionando uma experiência fluida para todos os perfis de usuário. O design deve ser totalmente responsivo, adaptando-se perfeitamente a diferentes tamanhos de tela, de desktops a dispositivos móveis, garantindo a usabilidade em qualquer ambiente. |
 | **RNF05** | O sistema deve implementar autenticação baseada em tokens para o acesso de usuários, garantindo que apenas pessoas autorizadas possam utilizar a plataforma. Todos os dados sensíveis, como senhas e informações de autenticação, devem ser criptografados para assegurar a proteção e a confidencialidade das informações.  |
 
-</details>
-
-<br>
-
-# 🔗 Rastreabilidade de Requisitos ↔ User Stories
-
-<details>
-  <summary>RF01 – Integração com a API do Jira</summary>
-
-- [US 2.1] Integração com Jira
-</details>
-
-<details>
-  <summary>RF02 – Mecanismo de Contingência</summary>
-
-- [US 2.1] Integração com Jira (usando contingência caso falhe)
-</details>
-
-<details>
-  <summary>RF03 – Armazenamento e Exibição de Dados Históricos</summary>
-
-- [US 1.3] Relatório anual comparativo  
-- [US 3.1] Evolução de custos previstos vs realizados
-</details>
-
-<details>
-  <summary>RF04 – Gestão de Usuários e Permissões</summary>
-
-- [US 5.0] Cadastro, edição e exclusão de usuários
-</details>
-
-<details>
-  <summary>RF05 – Geração de Relatórios Detalhados</summary>
-
-- [US 1.1] Relatório diário por desenvolvedor  
-- [US 1.2] Relatório mensal consolidado  
-- [US 1.3] Relatório anual comparativo
-</details>
-
-<details>
-  <summary>RF06 – Flexibilidade na Visualização de Relatórios</summary>
-
-- [US 1.2] Relatório mensal consolidado
-</details>
-
-<details>
-  <summary>RF07 – Relatório Visual em Calendário</summary>
-
-- [US 1.1] Relatório diário em formato calendário
-</details>
-
-<details>
-  <summary>RF08 – Consolidação Mensal de Horas</summary>
-
-- [US 1.2] Relatório mensal consolidado
-</details>
-
-<details>
-  <summary>RF09 – Comparativo Anual de Horas</summary>
-
-- [US 1.3] Relatório anual comparativo
-</details>
-
-<details>
-  <summary>RF10 – Dashboard de Custos</summary>
-
-- [US 3.1] Evolução de custos previstos vs realizados
-</details>
-
-<details>
-  <summary>RF11 – Exportação para PDF</summary>
-
-- [US 1.1] Relatório diário  
-- [US 1.2] Relatório mensal  
-- [US 1.3] Relatório anual  
-- [US 3.1] Custos previstos vs realizados  
-- [US 3.2] Dashboard de issues  
-- [US 3.3] Dashboard de bugs  
-- [US 4.1] Horas por atividade  
-- [US 4.2] Horas por módulo  
-- [US 4.3] Horas por desenvolvedor
-</details>
-
-<details>
-  <summary>RF12 – Dashboard de Issues Abertas</summary>
-
-- [US 3.2] Dashboard de issues abertas
-</details>
-
-<details>
-  <summary>RF13 – Dashboard de Bugs</summary>
-
-- [US 3.3] Dashboard de bugs
-</details>
-
-<details>
-  <summary>RF14 – Dashboard de Horas por Atividade</summary>
-
-- [US 4.1] Horas por atividade
-</details>
-
-<details>
-  <summary>RF15 – Dashboard de Horas por Módulo</summary>
-
-- [US 4.2] Horas por módulo
-</details>
-
-<details>
-  <summary>RF16 – Dashboard de Horas por Desenvolvedor</summary>
-
-- [US 4.3] Horas por desenvolvedor
 </details>
 
 <br>
@@ -374,70 +261,31 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 
   <h1 id="computer-tecnologias-utilizadas"> 💻 Tecnologias Utilizadas </h1> 
 
-- **Linguagens de Programação:**
-  - Python (versão 3.6+)
-  - JavaScript
-- **Frameworks e Bibliotecas:**
-  - Django (versão 5.2.6)
-  - HTMX
-- **Dependências Django:**
-  - `python-dotenv`
-  - `requests`
-  - `asgiref`
-  - `django-environ`
-  - `psycopg2-binary`
-  - `sqlparse`
-  - `tzdata`
-- **Banco de Dados:**
-  - PostgreSQL
-- **Ferramentas e Serviços:**
-  - Docker
-  - Git
-  - GitHub
-  - Figma
+### 🔹 Linguagens de Programação
+![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)
 
----
-  <h1 id="gear-estrutura-do-projeto"> ⚙️ Estrutura do Projeto </h1> 
+### 🔹 Frameworks e Bibliotecas
+![Django](https://img.shields.io/badge/Django-5.2.6-green?logo=django&logoColor=white)
+![HTMX](https://img.shields.io/badge/HTMX-🔄-lightblue)
 
----
+### 🔹 Dependências Django
+![python-dotenv](https://img.shields.io/badge/python--dotenv-gray)
+![requests](https://img.shields.io/badge/requests-ffdd00)
+![asgiref](https://img.shields.io/badge/asgiref-orange)
+![django-environ](https://img.shields.io/badge/django--environ-green)
+![psycopg2-binary](https://img.shields.io/badge/psycopg2--binary-336791?logo=postgresql&logoColor=white)
+![sqlparse](https://img.shields.io/badge/sqlparse-lightgrey)
+![tzdata](https://img.shields.io/badge/tzdata-blue)
 
-  <h1 id="gear-manual-de-instalacao"> ⚙️ Manual de Instalação </h1> 
+### 🔹 Banco de Dados
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-🗄️-336791?logo=postgresql&logoColor=white)
 
-  ## 🚀 Primeiros Passos
-
-Após clonar este repositório, é necessário rodar um script de configuração inicial que prepara o ambiente de desenvolvimento.
-
-Esse script irá:
-- Atualizar e inicializar os **submódulos** (`docs`, `server`).
-- Configurar o **template de commits**.
-- Instalar o **hook de validação** de mensagens de commit.
-
-Após execução do passo a passo a seguir, o projeto já estará devidamente configurado.  
-Acesse o submódulo necessário e continue os trabalhos.
-
-### Passo a passo
-
-1. Clone o repositório:
-```bash
-    git clone https://github.com/AthosFatecSjc/Athos.git
-    cd Athos
-```
-
-2. Dê permissão de execução para o script (se ainda não tiver):
-```bash
-    chmod +x getting-started.sh
-```
-
-3. Execute o script:  
-Não se preocupe, o script irá tratar a questão do protocolo (SSH | HTTPS).
-```bash
-    ./getting-started.sh
-```
-
-4. Confirme que os submódulos foram baixados corretamente:
-```bash
-    git submodule status
-```
+### 🔹 Ferramentas e Serviços
+![Docker](https://img.shields.io/badge/Docker-🐳-2496ED?logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-🌱-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
 
 ---
 
