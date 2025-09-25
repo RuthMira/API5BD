@@ -19,13 +19,11 @@
 
 </p>
 
----
-
-
 <h1 id="busts_in_silhouette-integrantes-da-equipe">👥 Integrantes da Equipe</h1>
 
 ![API 5 SEMESTRE](img/equipe.png)
 
+<div align="center">
 | Integrantes | Redes Sociais |
 |-------------|---------------|
 | Ruth Mira - Product Owner | <a href="https://www.linkedin.com/in/ruth-mira/?originalSubdomain=br" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RuthMira" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
@@ -36,7 +34,7 @@
 | Rafael Trevizoli - Developer | <a href="https://www.linkedin.com/in/rafael-trevizoli/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/rtrevizoli" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Renato Mendes - Developer | <a href="https://www.linkedin.com/in/renato-mendes-61a6481a4" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RenatoCMMendes" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 
----
+</div>
 
 <h1 id="pushpin-projeto-api">📌 Projeto API</h1> 
 
@@ -119,8 +117,6 @@ Os dados serão extraídos do Jira. O dashboard deve ser exportável para PDF e 
 
   ### **Sprint 1: Planejamento e Execução**
 
----
-
 * **Capacidade Estimada da Equipe por Sprint:** 30 Story Points
 * **Meta da Sprint:** Entregar as User Stories de alta prioridade (Rank 1.1 + 1.2), totalizando 19 Story Points.
 * **Previsão da Sprint (Extras, sem compromisso de entrega):** A User Storie de prioridade alta (Rank 1.3), que possui 11 Story Points, pode ser iniciada se houver capacidade extra na equipe após a conclusão da meta principal.
@@ -138,8 +134,6 @@ Os dados serão extraídos do Jira. O dashboard deve ser exportável para PDF e 
 Visualizar o [Wireframe da Sprint 1](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
 Visualizar o [Modelo Físico da Sprint 1](img/bancov1.svg)
-
----
 
 ### **Definition of Ready (DoR)**
 
@@ -167,8 +161,6 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 </details>
 
----  
-
 <details>
   <summary><b>Sprint 2</b></summary>
 
@@ -186,8 +178,6 @@ Um item de backlog é considerado "concluído" (Done) se:
 | **3.2** | Média | Como gerente de projetos, quero visualizar a quantidade de issues abertas classificadas por status (Não iniciado, Em progresso, MR e Concluído), além da distribuição de custos por desenvolvedor, para que eu possa monitorar a evolução do fluxo de trabalho da equipe e entender os custos associados a cada issue. |  | 2 |
 | **3.3** | Média | Como gerente de projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, além da distribuição de custos por desenvolvedor, para que eu possa avaliar a qualidade do software, identificar áreas críticas e analisar o impacto financeiro dos bugs. | | 2 |
 
----
-
 ### Vídeo da aplicação e suas funcionalidades:
 
 [Assista pelo Youtube](https://youtu.be/) ou pelo seu [Reprodutor de Vídeos](/img/)
@@ -195,8 +185,6 @@ Um item de backlog é considerado "concluído" (Done) se:
 Visualizar o [Wireframe da Sprint 2](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
 Visualizar o [Modelo Físico da Sprint 2](/img/)
-
----
 
 ### **Definition of Ready (DoR)**
 
@@ -225,14 +213,10 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 </details>
 
----
-
 <details>
   <summary><b>Sprint 3</b></summary>
 
 ### **Sprint 3: Planejamento e Execução**
-
----
 
 * **Capacidade Estimada da Equipe por Sprint:** [Capacidade Estimada da Equipe]
 * **Meta da Sprint:** [Descreva a meta da Sprint 3]
@@ -252,8 +236,6 @@ Visualizar o [Wireframe da Sprint 3](/img/)
 Visualizar o [Modelo Físico da Sprint 3](/img/)
 
 </details>
-
----
 
 <h1 id="hourglass_flowing_sand-cronograma-da-api"> 📊Burndown </h1>
 
@@ -280,8 +262,6 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 </details>
 
 
----
-
 <h1 id="hourglass_flowing_sand-cronograma-da-api"> ⏳ Cronograma da API </h1>
 
 - [x] 25/08 a 29/08 - Kick-off
@@ -293,7 +273,6 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 - [ ] 24/11 a 28/11 - Sprint Review 
 - [ ] 04/12 - Feira de Soluções e Apresentação Final API
 
----
 
   <h1 id="computer-tecnologias-utilizadas"> 💻 Tecnologias Utilizadas </h1> 
 
@@ -323,7 +302,6 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 ![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
 
----
 
   <h1 id="gear-documentacoes"> 📚  Documentações </h1>
    
