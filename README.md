@@ -24,6 +24,7 @@
 ![API 5 SEMESTRE](img/equipe.png)
 
 <div align="center">
+
 | Integrantes | Redes Sociais |
 |-------------|---------------|
 | Ruth Mira - Product Owner | <a href="https://www.linkedin.com/in/ruth-mira/?originalSubdomain=br" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RuthMira" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
