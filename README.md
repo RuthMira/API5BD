@@ -15,18 +15,15 @@
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> •
   <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma da API </a>
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
-  <a href="#gear-estrutura-do-projeto"> Estrutura do Projeto </a> •
-  <a href="#gear-manual-de-instalacao"> Manual de Instalação </a> •
   <a href="#gear-documentacoes"> Documentações </a> •
 
 </p>
 
----
-
-
 <h1 id="busts_in_silhouette-integrantes-da-equipe">👥 Integrantes da Equipe</h1>
 
 ![API 5 SEMESTRE](img/equipe.png)
+
+<div align="center">
 
 | Integrantes | Redes Sociais |
 |-------------|---------------|
@@ -38,7 +35,7 @@
 | Rafael Trevizoli - Developer | <a href="https://www.linkedin.com/in/rafael-trevizoli/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/rtrevizoli" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Renato Mendes - Developer | <a href="https://www.linkedin.com/in/renato-mendes-61a6481a4" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RenatoCMMendes" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 
----
+</div>
 
 <h1 id="pushpin-projeto-api">📌 Projeto API</h1> 
 
@@ -67,10 +64,16 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 | **RF07** | O sistema deve disponibilizar um relatório visual em formato de calendário que exibe as horas lançadas diariamente por cada desenvolvedor de uma equipe específica. Para a soma total de horas, os dias com status de Folga (FO), Férias (FÉ) ou Licença (LI) devem ser contabilizados como 0. Caso um dia não tenha horas lançadas mas tenha um dos status, o campo deverá exibir a sigla correspondente (ex: FO, FÉ, LI) em vez de um valor numérico. |
 | **RF08** | O sistema deve consolidar e apresentar relatórios mensais que detalham as horas de trabalho totais de cada colaborador e projeto. Esses relatórios devem incluir tabelas e gráficos comparativos, permitindo uma análise visual e rápida da distribuição de horas ao longo do mês. O relatório também deve permitir a exportação em formato PDF.|
 | **RF09** | Para uma análise de desempenho de longo prazo, o sistema deve gerar relatórios anuais que comparem as horas previstas com as horas realizadas por colaborador, discriminadas mês a mês. Esses relatórios devem ser enriquecidos com tabelas, gráficos de barras e valores consolidados, facilitando a identificação de desvios e o monitoramento da performance anual da equipe. |
-| **RF10** | O sistema deve oferecer um dashboard de custos que permite aos gerentes de projeto visualizar a evolução do orçamento. A tela deve apresentar gráficos comparativos entre os valores previstos e os valores realizados, facilitando o controle orçamentário. O usuário deve ter a capacidade de aplicar filtros por projeto e por período (dia, semana, mês, ano ou todo o histórico do projeto). O sistema deve ser capaz de armazenar e exibir dados históricos de projetos ativos e concluídos, e o dashboard completo, com todos os gráficos e dados, deve estar disponível para exportação no formato PDF. O acesso a este painel é restrito e concedido exclusivamente ao perfil de Gerente de Projetos. |
+| **RF10** | O sistema deve apresentar um Dashboard de Custos para gerentes de projeto, permitindo a visualização e o controle da evolução orçamentária.
+O dashboard deve exibir cartões de resumo com os valores de Orçamento Previsto (ajustável pelo gerente), Custo Realizado (baseado em horas do Jira e custos manuais), Saldo Remanescente e a porcentagem do orçamento utilizada. Um gráfico de barras deve detalhar os custos por desenvolvedor.
+A ferramenta deve permitir a aplicação de filtros por projeto, além de oferecer a exportação do dashboard em PDF. Todos os dados históricos de projetos ativos e concluídos devem ser armazenados e exibidos. O acesso é exclusivo para o perfil de Gerente de Projetos. |
 | **RF11** |  Todos os dashboards e relatórios gerados pelo sistema devem estar disponíveis para exportação no formato PDF. O arquivo gerado deve ter um layout limpo, padronizado e organizado, garantindo que todas as informações visíveis na tela sejam apresentadas de forma clara e profissional no documento final. |
-| **RF12** | O sistema deve apresentar um dashboard de issues abertas para que os gerentes de projeto possam monitorar o fluxo de trabalho da equipe. Este painel deve exibir a quantidade de issues classificadas por status (aguardando, em andamento, em revisão de código - "MR" - e concluídas). Para facilitar a análise visual, os dados devem ser apresentados em gráficos de barras ou pizza. O usuário deve poder aplicar filtros por projeto, sprint e desenvolvedor. O dashboard deve ser completamente exportável para PDF. |
-| **RF13** |  Para avaliar a qualidade do software, o sistema deve incluir um dashboard de bugs. Este painel deve consolidar os bugs por status (aberto, em correção, resolvido) e exibir métricas importantes, como o tempo médio de correção. Os dados devem ser apresentados em gráficos de barras ou pizza para uma análise rápida. O dashboard, com todas as suas informações, deve ser exportável para PDF. |
+| **RF12** | O sistema deve apresentar um Dashboard de Issues Abertas que permite aos gerentes de projeto monitorar o fluxo de trabalho da equipe.
+O painel deve incluir um gráfico de pizza com a quantidade de issues por status (Não Iniciado, Em Progresso, MR e Concluído), um card de resumo com o custo médio das issues em aberto e uma tabela detalhada que liste o custo associado a cada issue por desenvolvedor.
+Os dados serão obtidos diretamente do Jira. O dashboard deve ser exportável para PDF e ter acesso restrito a gerentes de projeto. É obrigatório que haja filtros por projeto. |
+| **RF13** |  Para avaliar a qualidade do software e o impacto financeiro dos bugs, o sistema deve incluir um Dashboard de Bugs exclusivo para gerentes de projeto.
+Este painel deve exibir um gráfico de pizza com a quantidade de bugs em cada status (Não Iniciado, Em Progresso, MR e Concluído). Ele também deve apresentar um card de resumo com o custo médio dos bugs em aberto e uma tabela detalhada que mostra o custo de cada bug por desenvolvedor.
+Os dados serão extraídos do Jira. O dashboard deve ser exportável para PDF e deve ser possível aplicar filtros por projeto. |
 | **RF14** | O sistema deve oferecer um dashboard de horas por atividade que permita aos gerentes de projeto acompanhar o esforço investido em cada tarefa. O painel deve consolidar as horas gastas em cada atividade e exibir essa distribuição em um gráfico de barras. Para uma análise granular, deve ser possível aplicar filtros por projeto, sprint e colaborador. O dashboard completo deve ser exportável para PDF. |
 | **RF15** |Para entender onde o esforço da equipe está concentrado, o sistema deve fornecer um dashboard de horas por módulo (também conhecido como Epic, produto ou entregável). Este painel deve consolidar as horas utilizadas por módulo e apresentar um comparativo em tabela e gráfico. O usuário deve ter a capacidade de aplicar filtros por período e por projeto. O dashboard completo, com seus dados e gráficos, deve ser exportável para PDF. |
 | **RF16** | O sistema deve ter um dashboard de horas por desenvolvedor que ajude a avaliar a produtividade individual e a detectar sobrecargas. Este painel deve exibir as horas lançadas por cada desenvolvedor, discriminadas por atividade, módulo e dia. Para uma análise detalhada, o usuário deve poder filtrar por período e por projeto. O dashboard deve apresentar gráficos comparativos, como gráficos de linha para a evolução diária e gráficos de barras para a distribuição por módulo. O painel deve ser exportável para PDF. |
@@ -92,117 +95,6 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 <br>
 
-# 🔗 Rastreabilidade de Requisitos ↔ User Stories
-
-<details>
-  <summary>RF01 – Integração com a API do Jira</summary>
-
-- [US 2.1] Integração com Jira
-</details>
-
-<details>
-  <summary>RF02 – Mecanismo de Contingência</summary>
-
-- [US 2.1] Integração com Jira (usando contingência caso falhe)
-</details>
-
-<details>
-  <summary>RF03 – Armazenamento e Exibição de Dados Históricos</summary>
-
-- [US 1.3] Relatório anual comparativo  
-- [US 3.1] Evolução de custos previstos vs realizados
-</details>
-
-<details>
-  <summary>RF04 – Gestão de Usuários e Permissões</summary>
-
-- [US 5.0] Cadastro, edição e exclusão de usuários
-</details>
-
-<details>
-  <summary>RF05 – Geração de Relatórios Detalhados</summary>
-
-- [US 1.1] Relatório diário por desenvolvedor  
-- [US 1.2] Relatório mensal consolidado  
-- [US 1.3] Relatório anual comparativo
-</details>
-
-<details>
-  <summary>RF06 – Flexibilidade na Visualização de Relatórios</summary>
-
-- [US 1.2] Relatório mensal consolidado
-</details>
-
-<details>
-  <summary>RF07 – Relatório Visual em Calendário</summary>
-
-- [US 1.1] Relatório diário em formato calendário
-</details>
-
-<details>
-  <summary>RF08 – Consolidação Mensal de Horas</summary>
-
-- [US 1.2] Relatório mensal consolidado
-</details>
-
-<details>
-  <summary>RF09 – Comparativo Anual de Horas</summary>
-
-- [US 1.3] Relatório anual comparativo
-</details>
-
-<details>
-  <summary>RF10 – Dashboard de Custos</summary>
-
-- [US 3.1] Evolução de custos previstos vs realizados
-</details>
-
-<details>
-  <summary>RF11 – Exportação para PDF</summary>
-
-- [US 1.1] Relatório diário  
-- [US 1.2] Relatório mensal  
-- [US 1.3] Relatório anual  
-- [US 3.1] Custos previstos vs realizados  
-- [US 3.2] Dashboard de issues  
-- [US 3.3] Dashboard de bugs  
-- [US 4.1] Horas por atividade  
-- [US 4.2] Horas por módulo  
-- [US 4.3] Horas por desenvolvedor
-</details>
-
-<details>
-  <summary>RF12 – Dashboard de Issues Abertas</summary>
-
-- [US 3.2] Dashboard de issues abertas
-</details>
-
-<details>
-  <summary>RF13 – Dashboard de Bugs</summary>
-
-- [US 3.3] Dashboard de bugs
-</details>
-
-<details>
-  <summary>RF14 – Dashboard de Horas por Atividade</summary>
-
-- [US 4.1] Horas por atividade
-</details>
-
-<details>
-  <summary>RF15 – Dashboard de Horas por Módulo</summary>
-
-- [US 4.2] Horas por módulo
-</details>
-
-<details>
-  <summary>RF16 – Dashboard de Horas por Desenvolvedor</summary>
-
-- [US 4.3] Horas por desenvolvedor
-</details>
-
-<br>
-
 <h1 id="card_file_box-backlog-do-produto">🗂 Backlog do Produto</h1> 
 
 | Rank | Prioridade | User Story | Estimativa (horas) | Sprint |
@@ -211,9 +103,9 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 | **1.2** | Alta | Como Gerente de Projetos, quero visualizar um relatório mensal consolidado de horas por projeto e por colaborador, para que eu possa entender como o tempo da equipe foi distribuído entre os diferentes projetos. | 11 | 1 |
 | **1.3** | Alta | Como Gerente de projetos, quero visualizar um relatório anual que compara as horas previstas com as horas realizadas por cada colaborador, para que eu possa acompanhar o desempenho da equipe ao longo do ano e verificar se as expectativas estão sendo cumpridas. | 11 | 1 |
 | **2.1** | Alta | Como Administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | | 2 |
-| **3.1** | Média | Como Gerente de Projetos, quero visualizar a evolução de custos previstos versus realizados, para que eu possa controlar o orçamento do projeto de forma eficiente. Esse painel deve ser intuitivo e apresentar os dados de maneira gráfica para facilitar a análise. | | 2 |
-| **3.2** | Média | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (aguardando, em andamento, em MR e concluídas), para que eu possa monitorar a evolução do fluxo de trabalho da equipe. | | 2 |
-| **3.3** | Média | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, para avaliar a qualidade do software e identificar áreas críticas. | | 2 |
+| **3.1** | Média | Como Gerente de Projetos, quero visualizar a evolução dos custos previstos versus realizados em um dashboard interativo, com indicadores financeiros rápidos e dados de custo por desenvolvedor, para que eu possa controlar o orçamento do projeto de forma eficiente e tomar decisões baseadas em dados, inclusive podendo ajustar os valores de orçamento e custo/hora conforme a necessidade do projeto. | | 2 |
+| **3.2** | Média | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (Não iniciado, Em progresso, MR e Concluído), além da distribuição de custos por desenvolvedor, para que eu possa monitorar a evolução do fluxo de trabalho da equipe e entender os custos associados a cada issue. | | 2 |
+| **3.3** | Média | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, além da distribuição de custos por desenvolvedor,  para que eu possa avaliar a qualidade do software, identificar áreas críticas e analisar o impacto financeiro dos bugs. | | 2 |
 | **4.1** | Baixa | Como Gerente de Projetos, quero visualizar a quantidade de horas utilizadas em cada atividade, para acompanhar o esforço investido e avaliar a eficiência da execução. | | 3 |
 | **4.2** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por módulo (Epic, produto ou entregável), para entender onde a equipe tem concentrado maior esforço. | | 3 |
 | **4.3** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade, módulo e dia, para avaliar produtividade individual e detectar sobrecargas. | | 3 |
@@ -225,8 +117,6 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
   <summary><b>Sprint 1</b></summary>
 
   ### **Sprint 1: Planejamento e Execução**
-
----
 
 * **Capacidade Estimada da Equipe por Sprint:** 30 Story Points
 * **Meta da Sprint:** Entregar as User Stories de alta prioridade (Rank 1.1 + 1.2), totalizando 19 Story Points.
@@ -245,8 +135,6 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 Visualizar o [Wireframe da Sprint 1](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
 Visualizar o [Modelo Físico da Sprint 1](img/bancov1.svg)
-
----
 
 ### **Definition of Ready (DoR)**
 
@@ -274,42 +162,62 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 </details>
 
----  
-
 <details>
   <summary><b>Sprint 2</b></summary>
 
 ### **Sprint 2: Planejamento e Execução**
 
----
+* **Capacidade Estimada da Equipe por Sprint:**  Story Points  
+* **Meta da Sprint:** Entregar User Story de Alta Proridade (Rank 2.1) e iniciar a entrega das User Stories de Média prioridade (Rank 3.1 + Rank 3.2), totalizando  Story Points. 
+* **Previsão da Sprint (Extras, sem compromisso de entrega):** User Story 3.3 podem ser iniciadas se houver capacidade extra.  
 
-* **Capacidade Estimada da Equipe por Sprint:** [Capacidade Estimada da Equipe]
-* **Meta da Sprint:** [Descreva a meta da Sprint 2]
-* **Previsão da Sprint (Extras, sem compromisso de entrega):** [Descreva as tarefas extras para a Sprint 2]
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 | :--- | :--- | :--- | :--- | :--- |
-| | | | | |
-| | | | | |
+| **2.1** | Alta | Como administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | | 2 |
+| **3.1** | Média | Como gerente de projetos, quero visualizar a evolução dos custos previstos versus realizados em um dashboard interativo, com indicadores financeiros rápidos e dados de custo por desenvolvedor, para que eu possa controlar o orçamento do projeto de forma eficiente e tomar decisões baseadas em dados, inclusive podendo ajustar os valores de orçamento e custo/hora conforme a necessidade do projeto. |  | 2 |
+| **3.2** | Média | Como gerente de projetos, quero visualizar a quantidade de issues abertas classificadas por status (Não iniciado, Em progresso, MR e Concluído), além da distribuição de custos por desenvolvedor, para que eu possa monitorar a evolução do fluxo de trabalho da equipe e entender os custos associados a cada issue. |  | 2 |
+| **3.3** | Média | Como gerente de projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, além da distribuição de custos por desenvolvedor, para que eu possa avaliar a qualidade do software, identificar áreas críticas e analisar o impacto financeiro dos bugs. | | 2 |
 
 ### Vídeo da aplicação e suas funcionalidades:
 
 [Assista pelo Youtube](https://youtu.be/) ou pelo seu [Reprodutor de Vídeos](/img/)
 
-Visualizar o [Wireframe da Sprint 2](/img/)
+Visualizar o [Wireframe da Sprint 2](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
 Visualizar o [Modelo Físico da Sprint 2](/img/)
 
-</details>
+### **Definition of Ready (DoR)**
 
----
+Um item de backlog está pronto para a sprint se:
+
+* Possui título, descrição e objetivo claros.
+* Critérios de aceitação e regras de negócio definidos.
+* Prioridade estabelecida.
+* Esforço estimado pela equipe.
+* Dados/acessos disponíveis ou plano alternativo.
+* Perfis de usuário e permissões especificados.
+* Artefatos de apoio (wireframes, mockups, diagramas) fornecidos.
+
+### **Definition of Done (DoD)**
+
+Um item de backlog é considerado "concluído" (Done) se:
+
+* O código foi escrito, testado localmente e está limpo (padrões do time).  
+* A documentação técnica foi atualizada pelos dev.  
+* Integrado à branch principal (develop).  
+* Todos os testes automatizados foram criados e passaram.  
+* Critérios de aceitação da User Story foram atendidos.  
+* A aplicação está organizada e responsiva, garantindo boa experiência.  
+* A interface atende aos princípios de usabilidade, com navegação clara e consistente para o usuário final.  
+* Os elementos visuais seguem o padrão definido pelo time (design system ou guia de estilo).  
+
+</details>
 
 <details>
   <summary><b>Sprint 3</b></summary>
 
 ### **Sprint 3: Planejamento e Execução**
-
----
 
 * **Capacidade Estimada da Equipe por Sprint:** [Capacidade Estimada da Equipe]
 * **Meta da Sprint:** [Descreva a meta da Sprint 3]
@@ -329,8 +237,6 @@ Visualizar o [Wireframe da Sprint 3](/img/)
 Visualizar o [Modelo Físico da Sprint 3](/img/)
 
 </details>
-
----
 
 <h1 id="hourglass_flowing_sand-cronograma-da-api"> 📊Burndown </h1>
 
@@ -357,12 +263,10 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 </details>
 
 
----
-
 <h1 id="hourglass_flowing_sand-cronograma-da-api"> ⏳ Cronograma da API </h1>
 
 - [x] 25/08 a 29/08 - Kick-off
-- [ ] 08/09 a 28/09 - Primeira Sprint
+- [x] 08/09 a 28/09 - Primeira Sprint
 - [ ] 29/09 a 03/10- Sprint Review / Planning
 - [ ] 06/10 a 26/10 - Segunda Sprint
 - [ ] 27/10 a 31/10 - Sprint Review / Planning
@@ -370,81 +274,40 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 - [ ] 24/11 a 28/11 - Sprint Review 
 - [ ] 04/12 - Feira de Soluções e Apresentação Final API
 
----
 
   <h1 id="computer-tecnologias-utilizadas"> 💻 Tecnologias Utilizadas </h1> 
 
-- **Linguagens de Programação:**
-  - Python (versão 3.6+)
-  - JavaScript
-- **Frameworks e Bibliotecas:**
-  - Django (versão 5.2.6)
-  - HTMX
-- **Dependências Django:**
-  - `python-dotenv`
-  - `requests`
-  - `asgiref`
-  - `django-environ`
-  - `psycopg2-binary`
-  - `sqlparse`
-  - `tzdata`
-- **Banco de Dados:**
-  - PostgreSQL
-- **Ferramentas e Serviços:**
-  - Docker
-  - Git
-  - GitHub
-  - Figma
+### 🔹 Linguagens de Programação
+![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)
 
----
-  <h1 id="gear-estrutura-do-projeto"> ⚙️ Estrutura do Projeto </h1> 
+### 🔹 Frameworks e Bibliotecas
+![Django](https://img.shields.io/badge/Django-5.2.6-green?logo=django&logoColor=white)
+![HTMX](https://img.shields.io/badge/HTMX-🔄-lightblue)
 
----
+### 🔹 Dependências Django
+![python-dotenv](https://img.shields.io/badge/python--dotenv-gray)
+![requests](https://img.shields.io/badge/requests-ffdd00)
+![asgiref](https://img.shields.io/badge/asgiref-orange)
+![django-environ](https://img.shields.io/badge/django--environ-green)
+![psycopg2-binary](https://img.shields.io/badge/psycopg2--binary-336791?logo=postgresql&logoColor=white)
+![sqlparse](https://img.shields.io/badge/sqlparse-lightgrey)
+![tzdata](https://img.shields.io/badge/tzdata-blue)
 
-  <h1 id="gear-manual-de-instalacao"> ⚙️ Manual de Instalação </h1> 
+### 🔹 Banco de Dados
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-🗄️-336791?logo=postgresql&logoColor=white)
 
-  ## 🚀 Primeiros Passos
+### 🔹 Ferramentas e Serviços
+![Docker](https://img.shields.io/badge/Docker-🐳-2496ED?logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-🌱-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)
+![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
 
-Após clonar este repositório, é necessário rodar um script de configuração inicial que prepara o ambiente de desenvolvimento.
-
-Esse script irá:
-- Atualizar e inicializar os **submódulos** (`docs`, `server`).
-- Configurar o **template de commits**.
-- Instalar o **hook de validação** de mensagens de commit.
-
-Após execução do passo a passo a seguir, o projeto já estará devidamente configurado.  
-Acesse o submódulo necessário e continue os trabalhos.
-
-### Passo a passo
-
-1. Clone o repositório:
-```bash
-    git clone https://github.com/AthosFatecSjc/Athos.git
-    cd Athos
-```
-
-2. Dê permissão de execução para o script (se ainda não tiver):
-```bash
-    chmod +x getting-started.sh
-```
-
-3. Execute o script:  
-Não se preocupe, o script irá tratar a questão do protocolo (SSH | HTTPS).
-```bash
-    ./getting-started.sh
-```
-
-4. Confirme que os submódulos foram baixados corretamente:
-```bash
-    git submodule status
-```
-
----
 
   <h1 id="gear-documentacoes"> 📚  Documentações </h1>
    
 <div align="center">
-  <p>Caso tenha dúvidas ou queira contribuir com o projeto, acesse a documentação completa:</p>
+  <p>Caso tenha dúvidas ou queira contribuir rodar o projeto, acesse a documentação completa:</p>
   <a href="https://github.com/AthosFatecSjc/docs" target="_blank" rel="noopener">
     <img src="https://img.shields.io/badge/Documentação-GitHub-181717?style=for-the-badge&logo=github" alt="Documentação GitHub">
   </a>
