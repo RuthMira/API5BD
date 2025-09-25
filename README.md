@@ -31,7 +31,7 @@
 | Integrantes | Redes Sociais |
 |-------------|---------------|
 | Ruth Mira - Product Owner | <a href="https://www.linkedin.com/in/ruth-mira/?originalSubdomain=br" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RuthMira" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
-| Carla Daiane - Developer  | <a href="https://www.linkedin.com/in/carla-daiane/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/carladaiane" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
+| Carla Daiane - Scrum Master | <a href="https://www.linkedin.com/in/carla-daiane/" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/carladaiane" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Caique - Developer | <a href="https://linkedin.com/in/caique-almeida-privado" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Juan  - Developer | <a href="https://www.linkedin.com/in/juan-cursino" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/JuanCursino" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 | Mateus Soares  - Developer | <a href="https://www.linkedin.com/in/mateus-soares-4983681a0?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/MateusMSoares" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
@@ -217,7 +217,7 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 | **4.1** | Baixa | Como Gerente de Projetos, quero visualizar a quantidade de horas utilizadas em cada atividade, para acompanhar o esforço investido e avaliar a eficiência da execução. | | 3 |
 | **4.2** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por módulo (Epic, produto ou entregável), para entender onde a equipe tem concentrado maior esforço. | | 3 |
 | **4.3** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade, módulo e dia, para avaliar produtividade individual e detectar sobrecargas. | | 3 |
-| **5.0** | Baixa | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | | 3 |
+| **5.1** | Baixa | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | | 3 |
 
 <h1 id="calendar-backlog-das-sprints">📅 Backlog das Sprints</h1> 
 
@@ -337,8 +337,7 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 <details>
   <summary><strong>Sprint 1</strong></summary>
 
-  <img width="1548" height="736" alt="image" src="https://github.com/user-attachments/assets/84390f4d-21c5-47c6-9586-72abb837719d" />
-
+  <img width="1606" height="588" alt="image" src="https://github.com/user-attachments/assets/8be29a0a-feae-4adb-b88b-1252b7afb35a" />
 
 </details>
 
@@ -372,7 +371,7 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 
 ---
 
-  <h1 id="computer-tecnologias-utilizadas"> 💻 Tecnologias Utilizadas </h1> 
+  <h1 id="computer-tecnologias-utilizadas">💻 Tecnologias Utilizadas </h1> 
 
 - **Linguagens de Programação:**
   - Python (versão 3.6+)
