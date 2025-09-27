@@ -13,9 +13,9 @@
   <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes da Equipe </a> 
   <a href ="#pushpin-projeto-api">  Projeto API </a> •
   <a href="#white_check_mark-requisitos">  Requisitos </a> •
-  <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> 
-  <br/>
-  <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> •
+  <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> •
+  <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> 
+    <br/>
   <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma da API </a>
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
   <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> 
