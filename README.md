@@ -8,18 +8,21 @@
 </div>
 
 <p align="center">
-  <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes da Equipe </a> •
+  <br/>
+  <br/>
+  <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes da Equipe </a> 
   <a href ="#pushpin-projeto-api">  Projeto API </a> •
   <a href="#white_check_mark-requisitos">  Requisitos </a> •
-  <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> •
+  <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> 
+  <br/>
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> •
   <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma da API </a>
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
-  <a href="#gear-documentacoes"> Documentações </a> •
+  <a href="#gear-documentacoes"> Documentações </a> 
 
 </p>
 
-<h1 id="busts_in_silhouette-integrantes-da-equipe">🧑‍💻 Integrantes da Equipe</h1>
+<h1 align="center" id="busts_in_silhouette-integrantes-da-equipe">Integrantes da Equipe</h1>
 
 <img width="1584" height="396" alt="Equipe" src="https://github.com/user-attachments/assets/5c40849b-86d2-4be6-8468-6d8148288367" />
 
