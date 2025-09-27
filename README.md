@@ -18,6 +18,7 @@
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> •
   <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma da API </a>
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
+  <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> 
   <a href="#gear-documentacoes"> Documentações </a> 
 
 </p>
@@ -303,8 +304,7 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 ![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
 
-
-<h1 id="hourglass_flowing_sand-cronograma-da-api">🌿 Estratégia de Branches e Padrão de Commit</h1>
+<h1 id="gear-branch">🌿 Estratégia de Branches e Padrão de Commit</h1>
 
 <details>
   <summary><b>Estratégia de Branches</b></summary>
