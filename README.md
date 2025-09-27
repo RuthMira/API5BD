@@ -19,9 +19,10 @@
 
 </p>
 
-<h1 id="busts_in_silhouette-integrantes-da-equipe">👥 Integrantes da Equipe</h1>
+<h1 id="busts_in_silhouette-integrantes-da-equipe">🧑‍💻 Integrantes da Equipe</h1>
 
-![API 5 SEMESTRE](img/equipe.png)
+<img width="800" height="400" alt="Inserir um título" src="https://github.com/user-attachments/assets/4395c592-e098-4291-b18a-9538ea7222bf" />
+
 
 <div align="center">
 
@@ -274,7 +275,7 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 - [ ] 04/12 - Feira de Soluções e Apresentação Final API
 
 
-  <h1 id="computer-tecnologias-utilizadas">💻 Tecnologias Utilizadas </h1> 
+<h1 id="computer-tecnologias-utilizadas">💻Tecnologias Utilizadas </h1> 
 
 ### 🔹 Linguagens de Programação
 ![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python&logoColor=white)
@@ -303,7 +304,141 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 ![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
 
 
-  <h1 id="gear-documentacoes"> 📚  Documentações </h1>
+<h1 id="hourglass_flowing_sand-cronograma-da-api">🌿 Estratégia de Branches</h1>
+
+<details>
+  <summary><b>Imagem da estratégia</b></summary>
+
+<img width="1900" height="1010" alt="image" src="https://github.com/user-attachments/assets/61d11f2b-a6f8-4e49-b457-d1c81c8664fc" />
+
+</details>
+
+  #### 1. Cada repositório (**Athos**, **Server** e **Docs**) segue a mesma lógica:
+
+- **feature/\*** → Desenvolvimento de novas funcionalidades  
+- **develop** → Integração contínua de features (ambiente de homologação)  
+- **release** → Versão de entrega para produção. Sempre estável  
+- **hotfix/\*** → Correções urgentes aplicadas diretamente na release  
+
+📌 **Hierarquia (de cima para baixo):**  
+- **release > develop > feature/*
+
+#### 2. Submódulos no Athos
+O repositório **Athos** possui como submódulos os repositórios **Server** e **Docs**.  
+
+O Athos aponta sempre para o **HEAD** das branches correspondentes:
+- Athos **release** ➡️ Submódulos **release**  
+- Athos **develop** ➡️ Submódulos **develop**  
+
+👉 Isso significa que **não é necessário atualizar manualmente o Athos** a cada merge nos submódulos.
+
+#### 3. Fluxo de Trabalho no Server (exemplo prático)
+Se está desenvolvendo no **Server**:
+
+1. Criar uma **branch feature** a partir da **develop**  
+2. Desenvolver a funcionalidade  
+3. Atualizar a sua branch com a **develop** (para evitar conflitos)  
+4. Abrir um **Pull Request (PR)** para a **develop**  
+5. Acompanhar o processo de PR e, se necessário, atualizar sua branch com a **develop** (caso outros PRs sejam mergeados antes)  
+6. Após **2 aprovações**, mergear o código na **develop**  
+
+📌 **Obs.:** O mesmo fluxo vale para outros submódulos (ex: **Docs**).
+
+
+#### 4. Releases
+Os releases acontecem **ao fim de cada sprint**.  
+
+📅 **Ciclo de release mensal:**
+- **Semana 1:** Planning  
+- **Semanas 2 a 4:** Sprint  
+- **Fim da semana 4:** Release  
+
+⚠️ **Importante:**  
+- Se algo não estiver estável, **não deve subir** para a release.  
+- Neste caso, faz-se um **release parcial** (somente o que está pronto) ou **atrasa-se o release**.  
+
+#### 5. Hotfixes
+- Criados a partir da **release** (não da develop).  
+- Após aplicados, são mergeados:
+  - Na própria **release** (correção imediata)  
+  - Na **develop** (para manter sincronizado)  
+
+#### 6. Benefícios da Estratégia
+
+- Clareza no fluxo de integração (cada repo cuida do seu merge).
+- Athos sempre sincronizado com o estado correto dos submódulos.
+- Releases previsíveis e organizados.
+- Hotfixes rápidos sem comprometer o fluxo principal.
+
+<details>
+  <summary><strong>📌 Padrão de Commits e Branches</strong></summary>
+
+## 1. Padrão de Escrita de Commits
+- Todo o conteúdo deve ser escrito em **letras minúsculas**, exceto os **IDs da Task**.
+- Os **IDs** devem ser separados por espaço.
+
+## 2. Boas Práticas de Commit
+- Prefira realizar **commits pequenos e frequentes**, cada um rastreando a task correspondente.
+- Evite concentrar várias tarefas em um único commit.
+- Escreva a descrição em **português** para manter um padrão.
+
+**Exemplo:**
+git commit "ATHOS-1 feat(autenticação): adicionar endpoint de login"
+
+
+| Tipo     | Descrição                                        | Exemplo                                                                         |
+| -------- | ------------------------------------------------ | ------------------------------------------------------------------------------- |
+| feat     | Novas funcionalidades                            | ATHOS-01 feat(autenticacao): adiciona endpoint de login                         |
+| fix      | Correção de bugs                                 | ATHOS-01 fix(usuario): corrige upload da foto de perfil                         |
+| chore    | Manutenção, sem impacto direto                   | ATHOS-01 chore(deps): atualiza dependências do projeto                          |
+| docs     | Alterações na documentação                       | ATHOS-01 docs(readme): atualiza instruções de instalação                        |
+| style    | Ajustes de formatação, sem alterar comportamento | ATHOS-01 style(css): corrige indentação no main.css                             |
+| refactor | Refatoração de código                            | ATHOS-01 refactor(servico-usuario): remove verificações redundantes             |
+| perf     | Melhorias de desempenho                          | ATHOS-01 perf(api): reduz tempo de resposta do endpoint de busca                |
+| test     | Adição ou ajuste de testes                       | ATHOS-01 test(usuario): adiciona testes unitários                               |
+| build    | Mudanças em build ou dependências externas       | ATHOS-01 build(docker): adiciona configuração Docker                            |
+| ci       | Alterações em CI/CD                              | ATHOS-01 ci(workflow): atualiza workflow do GitHub Actions                      |
+| revert   | Reverter um commit anterior                      | ATHOS-01 revert(auth): reverte "feat(auth): adiciona endpoint de login com JWT" |
+| hotfix   | Correções urgentes em produção                   | ATHOS-01 hotfix(usuario): corrige falha ao registrar usuário                    |
+
+## 4. Padrão de Branches
+Feature Branch é criada a partir da branch principal para desenvolver uma nova funcionalidade ou melhoria.
+Nome da branch: letras minúsculas, iniciando com o ID da Task em maiúsculas, separado por barra (/).
+Descrição: palavras separadas por hífens (-), sem espaços.
+
+Exemplo:
+git checkout -b ATHOS-1/criar-tela-de-login
+
+Fix Branch é criada a partir da branch principal para corrigir um bug ou erro no código.
+Nome da branch: mesmo padrão da feature branch, mas com descrição do ajuste.
+
+Exemplo:
+git checkout -b ATHOS-1/correcao-do-modal-de-cadastro-de-usuario
+git switch -c ATHOS-1/criar-tela-de-login
+
+## 5. Por que seguimos esse padrão?
+
+- Isolamento: alterações em feature ou fix branch ficam separadas da branch principal até estarem finalizadas e aprovadas, evitando impacto no código estável.
+- Colaboração: permite que vários desenvolvedores trabalhem em diferentes funcionalidades e correções ao mesmo tempo, sem conflitos diretos.
+- Controle de qualidade: cada mudança passa por revisão de código e testes antes de ser integrada à branch principal, preservando a estabilidade do projeto.
+
+6. Pull Request
+
+Após concluir a funcionalidade ou correção, abra uma Pull Request (PR) contendo todos os IDs envolvidos (Tasks) e uma descrição detalhada das implementações realizadas.
+A solicitação pode ser feita pelo Jira ou pelo GitHub.
+
+⚠️ Importante: cada tarefa deve ter sua própria Pull Request.
+
+Exemplo:
+- ATHOS-1 Atualiza as tabelas do banco
+
+
+
+
+</details>
+
+
+<h1 id="gear-documentacoes"> 📚  Documentações </h1>
    
 <div align="center">
   <p>Caso tenha dúvidas ou queira contribuir rodar o projeto, acesse a documentação completa:</p>
