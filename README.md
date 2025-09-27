@@ -1,5 +1,5 @@
 <div align="center">
-
+  
 <img src="img/logo.png" alt="API 5 SEMESTRE" width="200" height="200">
 
 # ATHOS
@@ -21,9 +21,10 @@
 
 <h1 id="busts_in_silhouette-integrantes-da-equipe">🧑‍💻 Integrantes da Equipe</h1>
 
-<img width="800" height="400" alt="Inserir um título" src="https://github.com/user-attachments/assets/4395c592-e098-4291-b18a-9538ea7222bf" />
+<img width="1584" height="396" alt="Equipe" src="https://github.com/user-attachments/assets/5c40849b-86d2-4be6-8468-6d8148288367" />
 
-
+<br/>
+<br/>
 <div align="center">
 
 | Integrantes | Redes Sociais |
@@ -37,17 +38,19 @@
 | Renato Mendes - Developer | <a href="https://www.linkedin.com/in/renato-mendes-61a6481a4" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RenatoCMMendes" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 
 </div>
+<br/>
 
 <h1 id="pushpin-projeto-api">📌 Projeto API</h1> 
 
 ### **Desafio**
-
+<p align="justify">
 O desafio consiste em desenvolver uma ferramenta analítica para gestão de projetos. A ferramenta deve consumir dados de um sistema de gestão via API, consolidar essas informações em um **Data Warehouse** e, a partir daí, gerar indicadores, dashboards e boards que permitam acompanhar o andamento dos projetos. A aplicação deve oferecer diferentes perfis de usuário, com níveis de permissão distintos.
-
+<p/>
+  
 ### **Solução (ATHOS INSIGHT)**
-
+<p align="justify">
 O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um sistema de gestão de projetos. Esses dados serão organizados em um **Data Warehouse**, que servirá como base para a criação de relatórios, dashboards e indicadores de desempenho. A plataforma permitirá que a equipe de gestão acompanhe o cronograma, os custos e a resolução de bugs, facilitando a tomada de decisões estratégicas e garantindo que os projetos sejam concluídos dentro do prazo e do orçamento. O sistema contará com diferentes níveis de acesso, assegurando a segurança e a privacidade das informações.
-
+<p/>
 
 <h1 id="white_check_mark-requisitos">✅ Requisitos</h1> 
 
@@ -304,16 +307,14 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 ![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
 
 
-<h1 id="hourglass_flowing_sand-cronograma-da-api">🌿 Estratégia de Branches</h1>
+<h1 id="hourglass_flowing_sand-cronograma-da-api">🌿 Estratégia de Branches e Padrão de Commit</h1>
 
 <details>
-  <summary><b>Imagem da estratégia</b></summary>
+  <summary><b>Estratégia de Branches</b></summary>
 
 <img width="1900" height="1010" alt="image" src="https://github.com/user-attachments/assets/61d11f2b-a6f8-4e49-b457-d1c81c8664fc" />
 
-</details>
-
-  #### 1. Cada repositório (**Athos**, **Server** e **Docs**) segue a mesma lógica:
+#### 1. Cada repositório (**Athos**, **Server** e **Docs**) segue a mesma lógica:
 
 - **feature/\*** → Desenvolvimento de novas funcionalidades  
 - **develop** → Integração contínua de features (ambiente de homologação)  
@@ -370,8 +371,12 @@ Os releases acontecem **ao fim de cada sprint**.
 - Releases previsíveis e organizados.
 - Hotfixes rápidos sem comprometer o fluxo principal.
 
+
+</details>
+
+  
 <details>
-  <summary><strong>📌 Padrão de Commits e Branches</strong></summary>
+  <summary><strong>Padrão de Commits e Branches</strong></summary>
 
 ## 1. Padrão de Escrita de Commits
 - Todo o conteúdo deve ser escrito em **letras minúsculas**, exceto os **IDs da Task**.
