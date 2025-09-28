@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="img/logo.png" alt="API 5 SEMESTRE" width="200" height="200">
+<img src="img/logo.png" alt="API 5 SEMESTRE" width="300" height="300">
 
 # ATHOS
 ### 5° Semestre Banco de Dados
@@ -8,18 +8,15 @@
 </div>
 
 <p align="center">
-  <br/>
-  <br/>
-  <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes da Equipe </a> 
+  <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes </a> •
   <a href ="#pushpin-projeto-api">  Projeto API </a> •
   <a href="#white_check_mark-requisitos">  Requisitos </a> •
   <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> •
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> 
-    <br/>
-  <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma da API </a>
+  <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma </a>•
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
-  <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> 
-  <a href="#gear-documentacoes"> Documentações </a> 
+  <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> • 
+  <a href="#gear-documentacoes"> Documentações </a> •
 
 </p>
 
@@ -42,6 +39,7 @@
 | Renato Mendes - Developer | <a href="https://www.linkedin.com/in/renato-mendes-61a6481a4" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RenatoCMMendes" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 
 </div>
+
 <br/>
 
 <h1 id="pushpin-projeto-api">📌 Projeto API</h1> 
@@ -55,6 +53,8 @@ O desafio consiste em desenvolver uma ferramenta analítica para gestão de proj
 <p align="justify">
 O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um sistema de gestão de projetos. Esses dados serão organizados em um **Data Warehouse**, que servirá como base para a criação de relatórios, dashboards e indicadores de desempenho. A plataforma permitirá que a equipe de gestão acompanhe o cronograma, os custos e a resolução de bugs, facilitando a tomada de decisões estratégicas e garantindo que os projetos sejam concluídos dentro do prazo e do orçamento. O sistema contará com diferentes níveis de acesso, assegurando a segurança e a privacidade das informações.
 <p/>
+
+<br>
 
 <h1 id="white_check_mark-requisitos">✅ Requisitos</h1> 
 
@@ -113,6 +113,8 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 | **4.3** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade, módulo e dia, para avaliar produtividade individual e detectar sobrecargas. | | 3 |
 | **5.1** | Baixa | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | | 3 |
 
+<br>
+
 <h1 id="calendar-backlog-das-sprints">📅 Backlog das Sprints</h1> 
 
 <details>
@@ -126,13 +128,13 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 | :--- | :--- | :--- | :--- | :--- |
-| **1.1** | Alta | Como Gerente de projetos, quero visualizar um relatório detalhado das horas lançadas diariamente por cada desenvolvedor, para que eu possa acompanhar a produtividade da equipe e identificar a distribuição do tempo ao longo do mês. | 8 | 1 |
-| **1.2** | Alta | Como Gerente de projetos, quero visualizar um relatório mensal consolidado de horas por projeto e por colaborador, para que eu possa entender como o tempo da equipe foi distribuído entre os diferentes projetos. | 11 | 1 |
-| **1.3** | Alta | Como Gerente de projetos, quero visualizar um relatório anual que compara as horas previstas com as horas realizadas por cada colaborador, para que eu possa acompanhar o desempenho da equipe ao longo do ano e verificar se as expectativas estão sendo cumpridas. | 11 | 1 |
+| **1.1** | Highest | Como Gerente de projetos, quero visualizar um relatório detalhado das horas lançadas diariamente por cada desenvolvedor, para que eu possa acompanhar a produtividade da equipe e identificar a distribuição do tempo ao longo do mês. | 8 | 1 |
+| **1.2** | High | Como Gerente de projetos, quero visualizar um relatório mensal consolidado de horas por projeto e por colaborador, para que eu possa entender como o tempo da equipe foi distribuído entre os diferentes projetos. | 11 | 1 |
+| **1.3** | Medium | Como Gerente de projetos, quero visualizar um relatório anual que compara as horas previstas com as horas realizadas por cada colaborador, para que eu possa acompanhar o desempenho da equipe ao longo do ano e verificar se as expectativas estão sendo cumpridas. | 11 | 1 |
 
 ### Vídeo da aplicação e suas funcionalidades:
 
-[Assista pelo Youtube]() ou pelo seu [Reprodutor de Vídeos]()
+[Assista pelo Youtube](https://www.youtube.com/watch?v=hKPVk8CMkfk).
 
 Visualizar o [Wireframe da Sprint 1](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
@@ -245,24 +247,20 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 <details>
   <summary><strong>Sprint 1</strong></summary>
 
-  <img width="1606" height="588" alt="image" src="https://github.com/user-attachments/assets/8be29a0a-feae-4adb-b88b-1252b7afb35a" />
+  <img width="1606" height="588" alt="image" src="img/burndown.png" />
 
 </details>
 
 <details>
   <summary><strong>Sprint 2</strong></summary>
-
-  
-
 </details>
 
 
 <details>
   <summary><strong>Sprint 3</strong></summary>
-
-
 </details>
 
+<br>
 
 <h1 id="hourglass_flowing_sand-cronograma-da-api"> ⏳ Cronograma da API </h1>
 
@@ -275,34 +273,30 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 - [ ] 24/11 a 28/11 - Sprint Review 
 - [ ] 04/12 - Feira de Soluções e Apresentação Final API
 
+<br>
 
 <h1 id="computer-tecnologias-utilizadas">💻Tecnologias Utilizadas </h1> 
 
-### 🔹 Linguagens de Programação
-![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)
+<div align="center">
 
-### 🔹 Frameworks e Bibliotecas
+![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)
 ![Django](https://img.shields.io/badge/Django-5.2.6-green?logo=django&logoColor=white)
 ![HTMX](https://img.shields.io/badge/HTMX-🔄-lightblue)
-
-### 🔹 Dependências Django
 ![python-dotenv](https://img.shields.io/badge/python--dotenv-gray)
 ![requests](https://img.shields.io/badge/requests-ffdd00)
 ![asgiref](https://img.shields.io/badge/asgiref-orange)
 ![django-environ](https://img.shields.io/badge/django--environ-green)
-![psycopg2-binary](https://img.shields.io/badge/psycopg2--binary-336791?logo=postgresql&logoColor=white)
 ![sqlparse](https://img.shields.io/badge/sqlparse-lightgrey)
 ![tzdata](https://img.shields.io/badge/tzdata-blue)
-
-### 🔹 Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-🗄️-336791?logo=postgresql&logoColor=white)
-
-### 🔹 Ferramentas e Serviços
 ![Docker](https://img.shields.io/badge/Docker-🐳-2496ED?logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-🌱-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
+</div>
+
+<br>
 
 <h1 id="gear-branch">🌿 Estratégia de Branches e Padrão de Commit</h1>
 
@@ -433,17 +427,14 @@ A solicitação pode ser feita pelo Jira ou pelo GitHub.
 
 Exemplo:
 - ATHOS-1 Atualiza as tabelas do banco
-
-
-
-
 </details>
 
+<br>
 
 <h1 id="gear-documentacoes"> 📚  Documentações </h1>
    
 <div align="center">
-  <p>Caso tenha dúvidas ou queira contribuir rodar o projeto, acesse a documentação completa:</p>
+  <p>Caso tenha dúvidas ou queira rodar o projeto, acesse a documentação tecnica completa em :</p>
   <a href="https://github.com/AthosFatecSjc/docs" target="_blank" rel="noopener">
     <img src="https://img.shields.io/badge/Documentação-GitHub-181717?style=for-the-badge&logo=github" alt="Documentação GitHub">
   </a>
