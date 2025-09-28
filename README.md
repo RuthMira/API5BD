@@ -39,6 +39,7 @@
 | Renato Mendes - Developer | <a href="https://www.linkedin.com/in/renato-mendes-61a6481a4" target="_blank"><img src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a> <a href="https://github.com/RenatoCMMendes" target="_blank"><img src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white"></a> |
 
 </div>
+
 <br/>
 
 <h1 id="pushpin-projeto-api">📌 Projeto API</h1> 
@@ -52,6 +53,8 @@ O desafio consiste em desenvolver uma ferramenta analítica para gestão de proj
 <p align="justify">
 O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um sistema de gestão de projetos. Esses dados serão organizados em um **Data Warehouse**, que servirá como base para a criação de relatórios, dashboards e indicadores de desempenho. A plataforma permitirá que a equipe de gestão acompanhe o cronograma, os custos e a resolução de bugs, facilitando a tomada de decisões estratégicas e garantindo que os projetos sejam concluídos dentro do prazo e do orçamento. O sistema contará com diferentes níveis de acesso, assegurando a segurança e a privacidade das informações.
 <p/>
+
+<br>
 
 <h1 id="white_check_mark-requisitos">✅ Requisitos</h1> 
 
@@ -110,6 +113,8 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 | **4.3** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade, módulo e dia, para avaliar produtividade individual e detectar sobrecargas. | | 3 |
 | **5.1** | Baixa | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | | 3 |
 
+<br>
+
 <h1 id="calendar-backlog-das-sprints">📅 Backlog das Sprints</h1> 
 
 <details>
@@ -129,7 +134,7 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 ### Vídeo da aplicação e suas funcionalidades:
 
-[Assista pelo Youtube]() ou pelo seu [Reprodutor de Vídeos]()
+[Assista pelo Youtube]() ou pelo seu [Reprodutor de Vídeos](https://youtu.be/gc_k5Y5q-do)
 
 Visualizar o [Wireframe da Sprint 1](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
@@ -248,18 +253,14 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 
 <details>
   <summary><strong>Sprint 2</strong></summary>
-
-  
-
 </details>
 
 
 <details>
   <summary><strong>Sprint 3</strong></summary>
-
-
 </details>
 
+<br>
 
 <h1 id="hourglass_flowing_sand-cronograma-da-api"> ⏳ Cronograma da API </h1>
 
@@ -272,6 +273,7 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 - [ ] 24/11 a 28/11 - Sprint Review 
 - [ ] 04/12 - Feira de Soluções e Apresentação Final API
 
+<br>
 
 <h1 id="computer-tecnologias-utilizadas">💻Tecnologias Utilizadas </h1> 
 
@@ -292,8 +294,9 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 ![Git](https://img.shields.io/badge/Git-🌱-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
+</div>
 
-<div>
+<br>
 
 <h1 id="gear-branch">🌿 Estratégia de Branches e Padrão de Commit</h1>
 
@@ -424,12 +427,9 @@ A solicitação pode ser feita pelo Jira ou pelo GitHub.
 
 Exemplo:
 - ATHOS-1 Atualiza as tabelas do banco
-
-
-
-
 </details>
 
+<br>
 
 <h1 id="gear-documentacoes"> 📚  Documentações </h1>
    
