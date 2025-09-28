@@ -8,18 +8,15 @@
 </div>
 
 <p align="center">
-  <br/>
-  <br/>
-  <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes da Equipe </a> 
+  <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes </a> •
   <a href ="#pushpin-projeto-api">  Projeto API </a> •
   <a href="#white_check_mark-requisitos">  Requisitos </a> •
   <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> •
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> 
-    <br/>
-  <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma da API </a>
+  <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma </a>•
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
   <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> 
-  <a href="#gear-documentacoes"> Documentações </a> 
+  <a href="#gear-documentacoes"> Documentações </a> •
 
 </p>
 
@@ -278,31 +275,25 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 
 <h1 id="computer-tecnologias-utilizadas">💻Tecnologias Utilizadas </h1> 
 
-### 🔹 Linguagens de Programação
-![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)
+<div align="center">
 
-### 🔹 Frameworks e Bibliotecas
+![Python](https://img.shields.io/badge/Python-3.11+-blue?logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?logo=javascript&logoColor=black)
 ![Django](https://img.shields.io/badge/Django-5.2.6-green?logo=django&logoColor=white)
 ![HTMX](https://img.shields.io/badge/HTMX-🔄-lightblue)
-
-### 🔹 Dependências Django
 ![python-dotenv](https://img.shields.io/badge/python--dotenv-gray)
 ![requests](https://img.shields.io/badge/requests-ffdd00)
 ![asgiref](https://img.shields.io/badge/asgiref-orange)
 ![django-environ](https://img.shields.io/badge/django--environ-green)
-![psycopg2-binary](https://img.shields.io/badge/psycopg2--binary-336791?logo=postgresql&logoColor=white)
 ![sqlparse](https://img.shields.io/badge/sqlparse-lightgrey)
 ![tzdata](https://img.shields.io/badge/tzdata-blue)
-
-### 🔹 Banco de Dados
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-🗄️-336791?logo=postgresql&logoColor=white)
-
-### 🔹 Ferramentas e Serviços
 ![Docker](https://img.shields.io/badge/Docker-🐳-2496ED?logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-🌱-F05032?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-000000?logo=github&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-🎨-F24E1E?logo=figma&logoColor=white)
+
+<div>
 
 <h1 id="gear-branch">🌿 Estratégia de Branches e Padrão de Commit</h1>
 
@@ -443,7 +434,7 @@ Exemplo:
 <h1 id="gear-documentacoes"> 📚  Documentações </h1>
    
 <div align="center">
-  <p>Caso tenha dúvidas ou queira contribuir rodar o projeto, acesse a documentação completa:</p>
+  <p>Caso tenha dúvidas ou queira rodar o projeto, acesse a documentação tecnica completa em :</p>
   <a href="https://github.com/AthosFatecSjc/docs" target="_blank" rel="noopener">
     <img src="https://img.shields.io/badge/Documentação-GitHub-181717?style=for-the-badge&logo=github" alt="Documentação GitHub">
   </a>
