@@ -1,6 +1,6 @@
 <div align="center">
   
-<img src="img/logo.png" alt="API 5 SEMESTRE" width="200" height="200">
+<img src="img/logo.png" alt="API 5 SEMESTRE" width="300" height="300">
 
 # ATHOS
 ### 5° Semestre Banco de Dados
@@ -15,7 +15,7 @@
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> 
   <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma </a>•
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
-  <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> 
+  <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> • 
   <a href="#gear-documentacoes"> Documentações </a> •
 
 </p>
@@ -134,7 +134,7 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 ### Vídeo da aplicação e suas funcionalidades:
 
-[Assista pelo Youtube]() ou pelo seu [Reprodutor de Vídeos](https://youtu.be/gc_k5Y5q-do)
+[Assista pelo Youtube](https://youtu.be/gc_k5Y5q-do).
 
 Visualizar o [Wireframe da Sprint 1](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
