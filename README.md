@@ -134,7 +134,7 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 ### Vídeo da aplicação e suas funcionalidades:
 
-[Assista pelo Youtube](https://youtu.be/gc_k5Y5q-do).
+[Assista pelo Youtube](https://www.youtube.com/watch?v=hKPVk8CMkfk).
 
 Visualizar o [Wireframe da Sprint 1](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
