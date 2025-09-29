@@ -123,8 +123,8 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
   ### **Sprint 1: Planejamento e Execução**
 
 * **Capacidade Estimada da Equipe por Sprint:** 30 Story Points
-* **Meta da Sprint:** Entregar as User Stories de alta prioridade (Rank 1.1 + 1.2), totalizando 19 Story Points.
-* **Previsão da Sprint (Extras, sem compromisso de entrega):** A User Storie de prioridade alta (Rank 1.3), que possui 11 Story Points, pode ser iniciada se houver capacidade extra na equipe após a conclusão da meta principal.
+* **Meta da Sprint:** Entregar as User Stories de prioridade Highest e High (Rank 1.1 + 1.2), totalizando 19 Story Points.
+* **Previsão da Sprint (Extras, sem compromisso de entrega):** A User Storie de prioridade Medium (Rank 1.3), que possui 11 Story Points, pode ser iniciada se houver capacidade extra na equipe após a conclusão da meta principal.
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
 | :--- | :--- | :--- | :--- | :--- |
