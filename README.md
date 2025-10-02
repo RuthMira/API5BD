@@ -171,17 +171,21 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 ### **Sprint 2: Planejamento e Execução**
 
-* **Capacidade Estimada da Equipe por Sprint:**  Story Points  
-* **Meta da Sprint:** Entregar User Story de Alta Proridade (Rank 2.1) e iniciar a entrega das User Stories de Média prioridade (Rank 3.1 + Rank 3.2), totalizando  Story Points. 
-* **Previsão da Sprint (Extras, sem compromisso de entrega):** User Story 3.3 podem ser iniciadas se houver capacidade extra.  
+* **Capacidade Estimada da Equipe por Sprint:**  60 points 
+* **Meta da Sprint:** Entregar User Story de Highest Prioridade (Rank 2.1) e iniciar a entrega das User Stories de High e Medium prioridade (Rank 3.1 + Rank 4.1 + Rank 4.2), totalizando 47 Story Points.
+* **Previsão da Sprint (Extras, sem compromisso de entrega):** User Story de Low prioridade (Rank 4.3) pode ser iniciadas se houver capacidade extra. 
 
+
+## Backlog - User Stories
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
-| :--- | :--- | :--- | :--- | :--- |
-| **2.1** | Alta | Como administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | | 2 |
-| **3.1** | Média | Como gerente de projetos, quero visualizar a evolução dos custos previstos versus realizados em um dashboard interativo, com indicadores financeiros rápidos e dados de custo por desenvolvedor, para que eu possa controlar o orçamento do projeto de forma eficiente e tomar decisões baseadas em dados, inclusive podendo ajustar os valores de orçamento e custo/hora conforme a necessidade do projeto. |  | 2 |
-| **3.2** | Média | Como gerente de projetos, quero visualizar a quantidade de issues abertas classificadas por status (Não iniciado, Em progresso, MR e Concluído), além da distribuição de custos por desenvolvedor, para que eu possa monitorar a evolução do fluxo de trabalho da equipe e entender os custos associados a cada issue. |  | 2 |
-| **3.3** | Média | Como gerente de projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, além da distribuição de custos por desenvolvedor, para que eu possa avaliar a qualidade do software, identificar áreas críticas e analisar o impacto financeiro dos bugs. | | 2 |
+|------|------------|------------|------------|--------|
+| 2.1  | Highest    | Como Administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | 13 | 2 |
+| 3.1  | High       | Como administrador ou gerente de projetos, quero gerenciar os valores por hora dos desenvolvedores em uma interface centralizada, para que eu possa manter os custos sempre atualizados e garantir que os dashboards reflitam corretamente a realidade financeira de cada projeto. | 8  | 2 |
+| 4.1  | Medium     | Como Gerente de Projetos, quero visualizar a evolução de custos previstos versus realizados, para que eu possa controlar o orçamento do projeto de forma eficiente. Esse painel deve ser intuitivo e apresentar os dados de maneira gráfica para facilitar a análise. | 13 | 2 |
+| 4.2  | Medium     | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (aguardando, em andamento, em MR e concluídas), para que eu possa monitorar a evolução do fluxo de trabalho da equipe. | 13 | 2 |
+| 4.3  | Low        | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, para avaliar a qualidade do software e identificar áreas críticas. | 13 | 2 |
+
 
 ### Vídeo da aplicação e suas funcionalidades:
 
