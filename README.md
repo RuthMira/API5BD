@@ -255,7 +255,7 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 <details>
   <summary><strong>Sprint 1</strong></summary>
 
- <img width="1589" height="574" alt="image" src="https://github.com/user-attachments/assets/91c6123c-d92b-442b-89e8-66ed39708a9f" />
+<img width="1567" height="550" alt="image" src="https://github.com/user-attachments/assets/2e36336f-b69e-4657-a4c4-1638487705cf" />
 
 
 </details>
