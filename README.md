@@ -99,19 +99,21 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 <h1 id="card_file_box-backlog-do-produto">🗂 Backlog do Produto</h1> 
 
-| Rank | Prioridade | User Story | Estimativa (horas) | Sprint |
-| :--- | :--- | :--- | :--- | :--- |
-| **1.1** | Alta | Como Gerente de Projetos, quero visualizar um relatório detalhado das horas lançadas diariamente por cada desenvolvedor, para que eu possa acompanhar a produtividade da equipe e identificar a distribuição do tempo ao longo do mês. | 8 | 1 |
-| **1.2** | Alta | Como Gerente de Projetos, quero visualizar um relatório mensal consolidado de horas por projeto e por colaborador, para que eu possa entender como o tempo da equipe foi distribuído entre os diferentes projetos. | 11 | 1 |
-| **1.3** | Alta | Como Gerente de projetos, quero visualizar um relatório anual que compara as horas previstas com as horas realizadas por cada colaborador, para que eu possa acompanhar o desempenho da equipe ao longo do ano e verificar se as expectativas estão sendo cumpridas. | 11 | 1 |
-| **2.1** | Alta | Como Administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | | 2 |
-| **3.1** | Média | Como Gerente de Projetos, quero visualizar a evolução dos custos previstos versus realizados em um dashboard interativo, com indicadores financeiros rápidos e dados de custo por desenvolvedor, para que eu possa controlar o orçamento do projeto de forma eficiente e tomar decisões baseadas em dados, inclusive podendo ajustar os valores de orçamento e custo/hora conforme a necessidade do projeto. | | 2 |
-| **3.2** | Média | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (Não iniciado, Em progresso, MR e Concluído), além da distribuição de custos por desenvolvedor, para que eu possa monitorar a evolução do fluxo de trabalho da equipe e entender os custos associados a cada issue. | | 2 |
-| **3.3** | Média | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, além da distribuição de custos por desenvolvedor,  para que eu possa avaliar a qualidade do software, identificar áreas críticas e analisar o impacto financeiro dos bugs. | | 2 |
-| **4.1** | Baixa | Como Gerente de Projetos, quero visualizar a quantidade de horas utilizadas em cada atividade, para acompanhar o esforço investido e avaliar a eficiência da execução. | | 3 |
-| **4.2** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por módulo (Epic, produto ou entregável), para entender onde a equipe tem concentrado maior esforço. | | 3 |
-| **4.3** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade, módulo e dia, para avaliar produtividade individual e detectar sobrecargas. | | 3 |
-| **5.1** | Baixa | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | | 3 |
+| Rank | Prioridade | User Story                                                                                                                                                                                                                                                                                                                                              | Estimativa | Sprint | Requisitos Relacionados |
+| ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ | ----------------------- |
+| 1.1  | Alta       | Como Gerente de Projetos, quero visualizar um relatório detalhado das horas lançadas diariamente por cada desenvolvedor, para que eu possa acompanhar a produtividade da equipe e identificar a distribuição do tempo ao longo do mês.                                                                                                                  | 8          | 1      | RF05, RF07, RF11        |
+| 1.2  | Alta       | Como Gerente de Projetos, quero visualizar um relatório mensal consolidado de horas por projeto e por colaborador, para que eu possa entender como o tempo da equipe foi distribuído entre os diferentes projetos.                                                                                                                                      | 11         | 1      | RF05, RF06, RF08, RF11  |
+| 1.3  | Alta       | Como Gerente de Projetos, quero visualizar um relatório anual que compara as horas previstas com as horas realizadas por cada colaborador, para que eu possa acompanhar o desempenho da equipe ao longo do ano e verificar se as expectativas estão sendo cumpridas.                                                                                    | 11         | 1      | RF05, RF09, RF11, RF03  |
+| 2.1  | Alta       | Como Administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados.                                                                                                           | 13         | 2      | RF01, RF02, RN03        |
+| 3.1  | Média      | Como administrador ou gerente de projetos, quero gerenciar os valores por hora dos desenvolvedores em uma interface centralizada, para que eu possa manter os custos sempre atualizados e garantir que os dashboards reflitam corretamente a realidade financeira de cada projeto.                                                                      | 8          | 2      |                         |
+| 4.1  | Média      | Como Gerente de Projetos, quero visualizar a evolução de custos previstos versus realizados, para que eu possa controlar o orçamento do projeto de forma eficiente. Esse painel deve ser intuitivo e apresentar os dados de maneira gráfica para facilitar a análise.                                                                                   | 13         | 2      | RF10, RF03, RF04, RF11  |
+| 4.2  | Média      | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (aguardando, em andamento, em MR e concluídas), para que eu possa monitorar a evolução do fluxo de trabalho da equipe.                                                                                                                               | 13         | 2      | RF12, RF11              |
+| 4.3  | Média      | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, para avaliar a qualidade do software e identificar áreas críticas.                                                                                                                                                                                    | 13         | 2      | RF13, RF11              |
+| 5.1  | Baixa      | Como Gerente de Projetos, quero visualizar a quantidade de horas utilizadas em cada atividade, para acompanhar o esforço investido e avaliar a eficiência da execução.                                                                                                                                                                                  | -          | 3      | RF14, RF11              |
+| 5.2  | Baixa      | Como Gerente de Projetos, quero visualizar as horas utilizadas por módulo (Epic, produto ou entregável), para entender onde a equipe tem concentrado maior esforço.                                                                                                                                                                                     | -          | 3      | RF15, RF11              |
+| 5.3  | Baixa      | Como Gerente de Projetos, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade, módulo e dia, para avaliar produtividade individual e detectar sobrecargas.                                                                                                                                                         | -          | 3      | RF16, RF11              |
+| 6.1  | Baixa      | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | -          | 3      | RF04                    |
+
 
 <br>
 
@@ -211,14 +213,15 @@ Um item de backlog está pronto para a sprint se:
 
 Um item de backlog é considerado "concluído" (Done) se:
 
-* O código foi escrito, testado localmente e está limpo (padrões do time).  
-* A documentação técnica foi atualizada pelos dev.  
-* Integrado à branch principal (develop).  
-* Todos os testes automatizados foram criados e passaram.  
-* Critérios de aceitação da User Story foram atendidos.  
-* A aplicação está organizada e responsiva, garantindo boa experiência.  
-* A interface atende aos princípios de usabilidade, com navegação clara e consistente para o usuário final.  
-* Os elementos visuais seguem o padrão definido pelo time (design system ou guia de estilo).  
+* O código foi escrito, testado localmente e está limpo (padrões do time).
+* A documentação técnica foi atualizada pelos devs.
+* Integrado à branch principal (develop).
+* Todos os testes automatizados foram criados e passaram.
+* Critérios de aceitação da User Story foram atendidos.
+* A aplicação está organizada e responsiva, garantindo boa experiência.
+* A interface atende aos princípios de usabilidade, com navegação clara e consistente para o usuário final.
+* Os elementos visuais seguem o padrão definido pelo time (design system ou guia de estilo).
+* Não adiciona nenhuma nova issue no SonarQube.
 
 </details>
 
