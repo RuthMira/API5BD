@@ -254,15 +254,16 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 <details>
   <summary><strong>Sprint 1</strong></summary>
 
-  <img width="1606" height="588" alt="image" src="img/burndown.png" />
+ <img width="1589" height="574" alt="image" src="https://github.com/user-attachments/assets/91c6123c-d92b-442b-89e8-66ed39708a9f" />
+
 
 </details>
 
 <details>
   <summary><strong>Sprint 2</strong></summary>
+  <img width="1589" height="574" alt="image" src="https://github.com/user-attachments/assets/50219b0a-9411-4da1-a6e9-6f52aec2e3a6" />
+
 </details>
-
-
 <details>
   <summary><strong>Sprint 3</strong></summary>
 </details>
