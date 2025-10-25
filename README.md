@@ -44,10 +44,6 @@
 
 <h1 id="pushpin-projeto-api">📌 Necto / Projeto Athos Insight</h1>
 
-> Plataforma web de análise e gestão de projetos desenvolvida para monitorar produtividade, custos e desempenho de equipes de desenvolvimento.
-> Projeto acadêmico — Fatec São Paulo | Ambiente Azure Educacional.
-
-
 ## **Desafio**
 
 <p align="justify">
@@ -477,6 +473,9 @@ Exemplo:
   </a>
 </div>
 
+<br>
 
-© 2025 — *Necto / Projeto Athos Insight*  
-Desenvolvido no contexto educacional da **Fatec São Paulo**.
+<p align="center">
+© 2025 — *Necto / Projeto Athos Insight*
+Desenvolvido no contexto educacional da Fatec São Paulo.
+</p>
