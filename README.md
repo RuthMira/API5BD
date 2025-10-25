@@ -42,17 +42,39 @@
 
 <br/>
 
-<h1 id="pushpin-projeto-api">📌 Projeto API</h1> 
+<h1 id="pushpin-projeto-api">📌 Projeto API</h1>
+
+## Necto / Projeto **Athos Insight**
+
+> Plataforma web de análise e gestão de projetos desenvolvida para monitorar produtividade, custos e desempenho de equipes de desenvolvimento.
+> Projeto acadêmico — Fatec São Paulo | Ambiente Azure Educacional.
+
 
 ### **Desafio**
-<p align="justify">
-O desafio consiste em desenvolver uma ferramenta analítica para gestão de projetos. A ferramenta deve consumir dados de um sistema de gestão via API, consolidar essas informações em um <b>Data Warehouse</b> e, a partir daí, gerar indicadores, dashboards e boards que permitam acompanhar o andamento dos projetos. A aplicação deve oferecer diferentes perfis de usuário, com níveis de permissão distintos.
-<p/>
-  
-### **Solução (ATHOS INSIGHT)**
-<p align="justify">
-O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um sistema de gestão de projetos. Esses dados serão organizados em um <b>Data Warehouse</b>, que servirá como base para a criação de relatórios, dashboards e indicadores de desempenho. A plataforma permitirá que a equipe de gestão acompanhe o cronograma, os custos e a resolução de bugs, facilitando a tomada de decisões estratégicas e garantindo que os projetos sejam concluídos dentro do prazo e do orçamento. O sistema contará com diferentes níveis de acesso, assegurando a segurança e a privacidade das informações.
-<p/>
+
+<p align="justify">O desafio consistiu em **desenvolver uma ferramenta analítica para gestão de projetos** capaz de **consumir dados de um sistema de gestão via API**, consolidar essas informações em um **Data Warehouse**, e a partir disso gerar **indicadores, dashboards e relatórios gerenciais**.<p/>
+
+A solução deveria permitir:
+- O **acompanhamento do andamento dos projetos**, seus custos e prazos;
+- A **visualização da produtividade individual e por equipe**;
+- A **análise de desempenho e controle orçamentário**;
+- A **diferenciação de perfis de acesso** (Gerente, Líder, Membro), garantindo segurança e privacidade das informações.
+
+<p align="justify">O desafio foi proposto em um **contexto educacional e técnico**, com o objetivo de aplicar práticas reais de engenharia de software, arquitetura de dados e desenvolvimento web em um ambiente de nuvem limitado, simulando o modelo **SaaS (Software as a Service)**.<p/>
+
+
+### **Solução — Athos Insight**
+
+<p align="justify">O **Athos Insight** é uma **plataforma web inteligente** que centraliza e organiza dados de projetos em um **Data Warehouse**, transformando-os em **informações estratégicas e visuais** para a tomada de decisão.</p>
+
+A aplicação permite:
+- Monitorar **produtividade e horas lançadas** por desenvolvedor e projeto;
+- Acompanhar **custos previstos x realizados** em tempo real;
+- Visualizar **dashboards interativos** com indicadores financeiros e operacionais;
+- Controlar a **evolução de tarefas, bugs e issues** (integração futura com o Jira);
+- Exportar relatórios em **PDF**, prontos para apresentação.
+
+<p align="justify">A solução está hospedada em uma **máquina virtual Microsoft Azure**, operando em modo web, com **capacidade atual para até 30 usuários simultâneos** — ideal para o ambiente educacional e demonstrações funcionais.</p>
 
 <br>
 
@@ -450,11 +472,5 @@ Exemplo:
 </div>
 
 
-
-
-
-
-
-
-  
-
+© 2025 — *Necto / Projeto Athos Insight*  
+Desenvolvido no contexto educacional da **Fatec São Paulo**.
