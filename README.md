@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes </a> •
-  <a href ="#pushpin-projeto-api">  Necto / Projeto **Athos Insight** </a> •
+  <a href ="#pushpin-projeto-api">  Necto / Projeto Athos Insight </a> •
   <a href="#white_check_mark-requisitos">  Requisitos </a> •
   <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> •
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> 
@@ -42,7 +42,7 @@
 
 <br/>
 
-<h1 id="pushpin-projeto-api">📌 Necto / Projeto **Athos Insight**</h1>
+<h1 id="pushpin-projeto-api">📌 Necto / Projeto Athos Insight</h1>
 
 > Plataforma web de análise e gestão de projetos desenvolvida para monitorar produtividade, custos e desempenho de equipes de desenvolvimento.
 > Projeto acadêmico — Fatec São Paulo | Ambiente Azure Educacional.
@@ -51,7 +51,7 @@
 ## **Desafio**
 
 <p align="justify">
-O desafio consistiu em **desenvolver uma ferramenta analítica para gestão de projetos** capaz de **consumir dados de um sistema de gestão via API**, consolidar essas informações em um **Data Warehouse**, e a partir disso gerar **indicadores, dashboards e relatórios gerenciais**.
+O desafio consistiu em desenvolver uma ferramenta analítica para gestão de projetos capaz de consumir dados de um sistema de gestão via API, consolidar essas informações em um Data Warehouse, e a partir disso gerar indicadores, dashboards e relatórios gerenciais.
 <p/>
 
 A solução deveria permitir:
@@ -61,14 +61,14 @@ A solução deveria permitir:
 - A **diferenciação de perfis de acesso** (Gerente, Líder, Membro), garantindo segurança e privacidade das informações.
 
 <p align="justify"
->O desafio foi proposto em um **contexto educacional e técnico**, com o objetivo de aplicar práticas reais de engenharia de software, arquitetura de dados e desenvolvimento web em um ambiente de nuvem limitado, simulando o modelo **SaaS (Software as a Service)**.
+>O desafio foi proposto em um contexto educacional e técnico, com o objetivo de aplicar práticas reais de engenharia de software, arquitetura de dados e desenvolvimento web em um ambiente de nuvem limitado, simulando o modelo SaaS (Software as a Service).
 <p/>
 
 
 ## **Solução — Athos Insight**
 
 <p align="justify">
-O **Athos Insight** é uma **plataforma web inteligente** que centraliza e organiza dados de projetos em um **Data Warehouse**, transformando-os em **informações estratégicas e visuais** para a tomada de decisão.
+O Athos Insight é uma plataforma web inteligente que centraliza e organiza dados de projetos em um Data Warehouse, transformando-os em informações estratégicas e visuais para a tomada de decisão.
 </p>
 
 A aplicação permite:
@@ -79,7 +79,7 @@ A aplicação permite:
 - Exportar relatórios em **PDF**, prontos para apresentação.
 
 <p align="justify">
-A solução está hospedada em uma **máquina virtual Microsoft Azure**, operando em modo web, com **capacidade atual para até 30 usuários simultâneos** — ideal para o ambiente educacional e demonstrações funcionais.
+A solução está hospedada em uma máquina virtual Microsoft Azure, operando em modo web, com capacidade atual para até 30 usuários simultâneos — ideal para o ambiente educacional e demonstrações funcionais.
 </p>
 
 <br>
