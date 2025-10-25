@@ -474,8 +474,13 @@ Exemplo:
 </div>
 
 <br>
+<br>
+<br>
+<br>
+<br>
 
 <p align="center">
-© 2025 — *Necto / Projeto Athos Insight*
+© 2025 — *Necto / Projeto Athos Insight*</p>
+<p align="center">
 Desenvolvido no contexto educacional da Fatec São Paulo.
 </p>
