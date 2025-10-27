@@ -211,7 +211,7 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 ### Vídeo da aplicação e suas funcionalidades:
 
-[Assista pelo Youtube](https://youtu.be/) ou pelo seu [Reprodutor de Vídeos](/img/)
+[Assista pelo Youtube](https://youtu.be/v3v30mr9kSI) ou pelo seu [Reprodutor de Vídeos](/img/)
 
 Visualizar o [Wireframe da Sprint 2](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
