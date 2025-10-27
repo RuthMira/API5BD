@@ -255,14 +255,15 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 ### **Sprint 3: Planejamento e Execução**
 
-* **Capacidade Estimada da Equipe por Sprint:** [Capacidade Estimada da Equipe]
-* **Meta da Sprint:** [Descreva a meta da Sprint 3]
-* **Previsão da Sprint (Extras, sem compromisso de entrega):** [Descreva as tarefas extras para a Sprint 3]
+* **Capacidade Estimada da Equipe por Sprint:** 60 points
+* **Meta da Sprint:** Entregar User Story Retroativa + de Medium Prioridade (Rank 5.1) e da Low Prioridade (Rank 6.1), totalizando 9 Story Points.
 
-| Rank | Prioridade | User Story | Estimativa | Sprint |
-| :--- | :--- | :--- | :--- | :--- |
-| | | | | |
-| | | | | |
+| Rank | Prioridade | User Story                                                                                                                                                                                                                                                                                                                                      | Estimativa | Sprint |
+| ---- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ |
+| -    | High       | Como Gerente de Projetos, quero que os relatórios de atividades e horas (diário/mensal, por projeto e comparativo anual) utilizem dados reais do banco de dados corporativo, para que eu possa confiar nas informações apresentadas e tomar decisões baseadas em dados corretos.                                                                | 3          | 3      |
+| 5.1  | Medium     | Como gerente, líder ou membro, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade e dia, para avaliar produtividade individual e detectar sobrecargas.                                                                                                                                                    | 3          | 3      |
+| 6.1  | Low        | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, associando-os a um "Cargo" (título) e a um "Perfil de Acesso" (permissões), para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro), garantindo que cada pessoa visualize apenas as informações relevantes e que dados sensíveis fiquem restritos. | 3          | 3      |
+
 
 ### Vídeo da aplicação e suas funcionalidades:
 
