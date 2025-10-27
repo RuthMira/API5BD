@@ -218,7 +218,9 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 Visualizar o [Wireframe da Sprint 2](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
-Visualizar o [Modelo Físico da Sprint 2](/img/)
+Visualizar o [Modelo OLAP Sprint 2](/img/OLAP.webp)
+</br>
+Visualizar o [Modelo OLTP Sprint 2](/img/OLTP.webp)
 
 ### **Definition of Ready (DoR)**
 
