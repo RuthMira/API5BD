@@ -9,7 +9,7 @@
 
 <p align="center">
   <a href ="#busts_in_silhouette-integrantes-da-equipe">  Integrantes </a> •
-  <a href ="#pushpin-projeto-api">  Projeto API </a> •
+  <a href ="#pushpin-projeto-api">  Necto / Projeto Athos Insight </a> •
   <a href="#white_check_mark-requisitos">  Requisitos </a> •
   <a href="#card_file_box-backlog-do-produto"> Backlog do Produto </a> •
   <a href="#calendar-backlog-das-sprints"> Backlog das Sprints </a> 
@@ -42,17 +42,41 @@
 
 <br/>
 
-<h1 id="pushpin-projeto-api">📌 Projeto API</h1> 
+<h1 id="pushpin-projeto-api">📌 Necto / Projeto Athos Insight</h1>
 
-### **Desafio**
+## **Desafio**
+
 <p align="justify">
-O desafio consiste em desenvolver uma ferramenta analítica para gestão de projetos. A ferramenta deve consumir dados de um sistema de gestão via API, consolidar essas informações em um <b>Data Warehouse</b> e, a partir daí, gerar indicadores, dashboards e boards que permitam acompanhar o andamento dos projetos. A aplicação deve oferecer diferentes perfis de usuário, com níveis de permissão distintos.
+O desafio consistiu em desenvolver uma ferramenta analítica para gestão de projetos capaz de consumir dados de um sistema de gestão via API, consolidar essas informações em um Data Warehouse, e a partir disso gerar indicadores, dashboards e relatórios gerenciais.
 <p/>
-  
-### **Solução (ATHOS INSIGHT)**
+
+A solução deveria permitir:
+- O **acompanhamento do andamento dos projetos**, seus custos e prazos;
+- A **visualização da produtividade individual e por equipe**;
+- A **análise de desempenho e controle orçamentário**;
+- A **diferenciação de perfis de acesso** (Gerente, Líder, Membro), garantindo segurança e privacidade das informações.
+
+<p align="justify"
+>O desafio foi proposto em um contexto educacional e técnico, com o objetivo de aplicar práticas reais de engenharia de software, arquitetura de dados e desenvolvimento web em um ambiente de nuvem limitado, simulando o modelo SaaS (Software as a Service).
+<p/>
+
+
+## **Solução — Athos Insight**
+
 <p align="justify">
-O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um sistema de gestão de projetos. Esses dados serão organizados em um <b>Data Warehouse</b>, que servirá como base para a criação de relatórios, dashboards e indicadores de desempenho. A plataforma permitirá que a equipe de gestão acompanhe o cronograma, os custos e a resolução de bugs, facilitando a tomada de decisões estratégicas e garantindo que os projetos sejam concluídos dentro do prazo e do orçamento. O sistema contará com diferentes níveis de acesso, assegurando a segurança e a privacidade das informações.
-<p/>
+O Athos Insight é uma plataforma web inteligente que centraliza e organiza dados de projetos em um Data Warehouse, transformando-os em informações estratégicas e visuais para a tomada de decisão.
+</p>
+
+A aplicação permite:
+- Monitorar **produtividade e horas lançadas** por desenvolvedor e projeto;
+- Acompanhar **custos previstos x realizados** em tempo real;
+- Visualizar **dashboards interativos** com indicadores financeiros e operacionais;
+- Controlar a **evolução de tarefas, bugs e issues** (integração futura com o Jira);
+- Exportar relatórios em **PDF**, prontos para apresentação.
+
+<p align="justify">
+A solução está hospedada em uma máquina virtual Microsoft Azure, operando em modo web, com capacidade atual para até 30 usuários simultâneos — ideal para o ambiente educacional e demonstrações funcionais.
+</p>
 
 <br>
 
@@ -76,10 +100,8 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 | **RF11** |  Todos os dashboards e relatórios gerados pelo sistema devem estar disponíveis para exportação no formato PDF. O arquivo gerado deve ter um layout limpo, padronizado e organizado, garantindo que todas as informações visíveis na tela sejam apresentadas de forma clara e profissional no documento final. |
 | **RF12** | O sistema deve apresentar um Dashboard de Issues Abertas que permite aos gerentes de projeto monitorar o fluxo de trabalho da equipe. O painel deve incluir um gráfico de pizza com a quantidade de issues por status (Não Iniciado, Em Progresso, MR e Concluído), um card de resumo com o custo médio das issues em aberto e uma tabela detalhada que liste o custo associado a cada issue por desenvolvedor. Os dados serão obtidos diretamente do Jira. O dashboard deve ser exportável para PDF e ter acesso restrito a gerentes de projeto. É obrigatório que haja filtros por projeto. |
 | **RF13** |  Para avaliar a qualidade do software e o impacto financeiro dos bugs, o sistema deve incluir um Dashboard de Bugs exclusivo para gerentes de projeto. Este painel deve exibir um gráfico de pizza com a quantidade de bugs em cada status (Não Iniciado, Em Progresso, MR e Concluído). Ele também deve apresentar um card de resumo com o custo médio dos bugs em aberto e uma tabela detalhada que mostra o custo de cada bug por desenvolvedor. Os dados serão extraídos do Jira. O dashboard deve ser exportável para PDF e deve ser possível aplicar filtros por projeto. |
-| **RF14** | O sistema deve oferecer um dashboard de horas por atividade que permita aos gerentes de projeto acompanhar o esforço investido em cada tarefa. O painel deve consolidar as horas gastas em cada atividade e exibir essa distribuição em um gráfico de barras. Para uma análise granular, deve ser possível aplicar filtros por projeto, sprint e colaborador. O dashboard completo deve ser exportável para PDF. |
-| **RF15** |Para entender onde o esforço da equipe está concentrado, o sistema deve fornecer um dashboard de horas por módulo (também conhecido como Epic, produto ou entregável). Este painel deve consolidar as horas utilizadas por módulo e apresentar um comparativo em tabela e gráfico. O usuário deve ter a capacidade de aplicar filtros por período e por projeto. O dashboard completo, com seus dados e gráficos, deve ser exportável para PDF. |
-| **RF16** | O sistema deve ter um dashboard de horas por desenvolvedor que ajude a avaliar a produtividade individual e a detectar sobrecargas. Este painel deve exibir as horas lançadas por cada desenvolvedor, discriminadas por atividade, módulo e dia. Para uma análise detalhada, o usuário deve poder filtrar por período e por projeto. O dashboard deve apresentar gráficos comparativos, como gráficos de linha para a evolução diária e gráficos de barras para a distribuição por módulo. O painel deve ser exportável para PDF. |
-
+| **RF14** | O sistema deve ter um dashboard de horas por desenvolvedor que ajude a avaliar a produtividade individual e a detectar sobrecargas. Este painel deve exibir as horas lançadas por cada desenvolvedor, discriminadas por atividade, módulo e dia. Para uma análise detalhada, o usuário deve poder filtrar por período e por projeto. O dashboard deve apresentar gráficos comparativos, como gráficos de linha para a evolução diária e gráficos de barras para a distribuição por módulo. O painel deve ser exportável para PDF. |
+**RF15** | O sistema deve prover um módulo para o gerenciamento centralizado dos valores por hora de cada desenvolvedor. Esta interface deve permitir a visualização, cadastro e edição do valor/hora associado a cada colaborador cadastrado no sistema. Deverá ser possível definir um valor padrão (ex: R$ 40,00) e ajustá-lo individualmente conforme a necessidade. O acesso a esta funcionalidade será restrito a perfis de usuário com permissões de Administrador ou Gerente de Projetos, garantindo a confidencialidade e a integridade dos dados financeiros que servem como base para os cálculos de custo nos dashboards e relatórios.
 </details>
 
 <details>
@@ -99,19 +121,19 @@ O ATHOS INSIGHT será uma ferramenta que irá consumir dados diretamente de um s
 
 <h1 id="card_file_box-backlog-do-produto">🗂 Backlog do Produto</h1> 
 
-| Rank | Prioridade | User Story | Estimativa (horas) | Sprint |
-| :--- | :--- | :--- | :--- | :--- |
-| **1.1** | Alta | Como Gerente de Projetos, quero visualizar um relatório detalhado das horas lançadas diariamente por cada desenvolvedor, para que eu possa acompanhar a produtividade da equipe e identificar a distribuição do tempo ao longo do mês. | 8 | 1 |
-| **1.2** | Alta | Como Gerente de Projetos, quero visualizar um relatório mensal consolidado de horas por projeto e por colaborador, para que eu possa entender como o tempo da equipe foi distribuído entre os diferentes projetos. | 11 | 1 |
-| **1.3** | Alta | Como Gerente de projetos, quero visualizar um relatório anual que compara as horas previstas com as horas realizadas por cada colaborador, para que eu possa acompanhar o desempenho da equipe ao longo do ano e verificar se as expectativas estão sendo cumpridas. | 11 | 1 |
-| **2.1** | Alta | Como Administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | | 2 |
-| **3.1** | Média | Como Gerente de Projetos, quero visualizar a evolução dos custos previstos versus realizados em um dashboard interativo, com indicadores financeiros rápidos e dados de custo por desenvolvedor, para que eu possa controlar o orçamento do projeto de forma eficiente e tomar decisões baseadas em dados, inclusive podendo ajustar os valores de orçamento e custo/hora conforme a necessidade do projeto. | | 2 |
-| **3.2** | Média | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (Não iniciado, Em progresso, MR e Concluído), além da distribuição de custos por desenvolvedor, para que eu possa monitorar a evolução do fluxo de trabalho da equipe e entender os custos associados a cada issue. | | 2 |
-| **3.3** | Média | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, além da distribuição de custos por desenvolvedor,  para que eu possa avaliar a qualidade do software, identificar áreas críticas e analisar o impacto financeiro dos bugs. | | 2 |
-| **4.1** | Baixa | Como Gerente de Projetos, quero visualizar a quantidade de horas utilizadas em cada atividade, para acompanhar o esforço investido e avaliar a eficiência da execução. | | 3 |
-| **4.2** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por módulo (Epic, produto ou entregável), para entender onde a equipe tem concentrado maior esforço. | | 3 |
-| **4.3** | Baixa | Como Gerente de Projetos, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade, módulo e dia, para avaliar produtividade individual e detectar sobrecargas. | | 3 |
-| **5.1** | Baixa | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | | 3 |
+| Rank | Prioridade | User Story                                                                                                                                                                                                                                                                                                                                              | Estimativa | Sprint |
+| ---- | ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ |
+| 1.1  | Alta       | Como Gerente de Projetos, quero visualizar um relatório detalhado das horas lançadas diariamente por cada desenvolvedor, para que eu possa acompanhar a produtividade da equipe e identificar a distribuição do tempo ao longo do mês.                                                                                                                  | 8          | 1      |
+| 1.2  | Alta       | Como Gerente de Projetos, quero visualizar um relatório mensal consolidado de horas por projeto e por colaborador, para que eu possa entender como o tempo da equipe foi distribuído entre os diferentes projetos.                                                                                                                                      | 11         | 1      |
+| 1.3  | Alta       | Como Gerente de Projetos, quero visualizar um relatório anual que compara as horas previstas com as horas realizadas por cada colaborador, para que eu possa acompanhar o desempenho da equipe ao longo do ano e verificar se as expectativas estão sendo cumpridas.                                                                                    | 11         | 1      |
+| 2.1  | Alta       | Como Administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados.                                                                                                           | 13         | 2      |
+| 3.1  | Média      | Como administrador ou gerente de projetos, quero gerenciar os valores por hora dos desenvolvedores em uma interface centralizada, para que eu possa manter os custos sempre atualizados e garantir que os dashboards reflitam corretamente a realidade financeira de cada projeto.                                                                      | 8          | 2      |
+| 4.1  | Média      | Como Gerente de Projetos, quero visualizar a evolução de custos previstos versus realizados, para que eu possa controlar o orçamento do projeto de forma eficiente. Esse painel deve ser intuitivo e apresentar os dados de maneira gráfica para facilitar a análise.                                                                                   | 13         | 2      |
+| 4.2  | Média      | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (aguardando, em andamento, em MR e concluídas), para que eu possa monitorar a evolução do fluxo de trabalho da equipe.                                                                                                                               | 13         | 2      |
+| 4.3  | Média      | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, para avaliar a qualidade do software e identificar áreas críticas.                                                                                                                                                                                    | 13         | 2      |
+| 5.1  | Baixa      | Como Gerente de Projetos, quero visualizar a quantidade de horas utilizadas em cada atividade, para acompanhar o esforço investido e avaliar a eficiência da execução.                                                                                                                                                                                  | -          | 3      |
+| 6.1  | Baixa      | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro). Essa funcionalidade deve permitir que eu crie, edite, visualize e exclua usuários sempre que necessário, garantindo que cada pessoa tenha o nível de acesso adequado para suas responsabilidades. | -          | 3      |
+
 
 <br>
 
@@ -171,25 +193,31 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 ### **Sprint 2: Planejamento e Execução**
 
-* **Capacidade Estimada da Equipe por Sprint:**  Story Points  
-* **Meta da Sprint:** Entregar User Story de Alta Proridade (Rank 2.1) e iniciar a entrega das User Stories de Média prioridade (Rank 3.1 + Rank 3.2), totalizando  Story Points. 
-* **Previsão da Sprint (Extras, sem compromisso de entrega):** User Story 3.3 podem ser iniciadas se houver capacidade extra.  
+* **Capacidade Estimada da Equipe por Sprint:**  60 points 
+* **Meta da Sprint:** Entregar User Story de Highest Prioridade (Rank 2.1) e iniciar a entrega das User Stories de High e Medium prioridade (Rank 3.1 + Rank 4.1 + Rank 4.2), totalizando 47 Story Points.
+* **Previsão da Sprint (Extras, sem compromisso de entrega):** User Story de Low prioridade (Rank 4.3) pode ser iniciadas se houver capacidade extra. 
 
+
+## Backlog - User Stories
 
 | Rank | Prioridade | User Story | Estimativa | Sprint |
-| :--- | :--- | :--- | :--- | :--- |
-| **2.1** | Alta | Como administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | | 2 |
-| **3.1** | Média | Como gerente de projetos, quero visualizar a evolução dos custos previstos versus realizados em um dashboard interativo, com indicadores financeiros rápidos e dados de custo por desenvolvedor, para que eu possa controlar o orçamento do projeto de forma eficiente e tomar decisões baseadas em dados, inclusive podendo ajustar os valores de orçamento e custo/hora conforme a necessidade do projeto. |  | 2 |
-| **3.2** | Média | Como gerente de projetos, quero visualizar a quantidade de issues abertas classificadas por status (Não iniciado, Em progresso, MR e Concluído), além da distribuição de custos por desenvolvedor, para que eu possa monitorar a evolução do fluxo de trabalho da equipe e entender os custos associados a cada issue. |  | 2 |
-| **3.3** | Média | Como gerente de projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, além da distribuição de custos por desenvolvedor, para que eu possa avaliar a qualidade do software, identificar áreas críticas e analisar o impacto financeiro dos bugs. | | 2 |
+|------|------------|------------|------------|--------|
+| 2.1  | Highest    | Como Administrador, quero que o sistema se integre ao Jira, realizando requisições às suas APIs, para que os dados sejam normalizados e salvos no banco de dados da aplicação, permitindo a geração de relatórios consistentes e atualizados. | 13 | 2 |
+| 3.1  | High       | Como administrador ou gerente de projetos, quero gerenciar os valores por hora dos desenvolvedores em uma interface centralizada, para que eu possa manter os custos sempre atualizados e garantir que os dashboards reflitam corretamente a realidade financeira de cada projeto. | 8  | 2 |
+| 4.1  | Medium     | Como Gerente de Projetos, quero visualizar a evolução de custos previstos versus realizados, para que eu possa controlar o orçamento do projeto de forma eficiente. Esse painel deve ser intuitivo e apresentar os dados de maneira gráfica para facilitar a análise. | 13 | 2 |
+| 4.2  | Medium     | Como Gerente de Projetos, quero visualizar a quantidade de issues abertas classificadas por status (aguardando, em andamento, em MR e concluídas), para que eu possa monitorar a evolução do fluxo de trabalho da equipe. | 13 | 2 |
+| 4.3  | Low        | Como Gerente de Projetos, quero visualizar a quantidade de bugs reportados, abertos e corrigidos, para avaliar a qualidade do software e identificar áreas críticas. | 13 | 2 |
+
 
 ### Vídeo da aplicação e suas funcionalidades:
 
-[Assista pelo Youtube](https://youtu.be/) ou pelo seu [Reprodutor de Vídeos](/img/)
+[Assista pelo Youtube](https://youtu.be/v3v30mr9kSI) ou pelo seu [Reprodutor de Vídeos](/img/)
 
 Visualizar o [Wireframe da Sprint 2](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
-Visualizar o [Modelo Físico da Sprint 2](/img/)
+Visualizar o [Modelo OLAP Sprint 2](/img/OLAP.webp)
+</br>
+Visualizar o [Modelo OLTP Sprint 2](/img/OLTP.webp)
 
 ### **Definition of Ready (DoR)**
 
@@ -207,14 +235,15 @@ Um item de backlog está pronto para a sprint se:
 
 Um item de backlog é considerado "concluído" (Done) se:
 
-* O código foi escrito, testado localmente e está limpo (padrões do time).  
-* A documentação técnica foi atualizada pelos dev.  
-* Integrado à branch principal (develop).  
-* Todos os testes automatizados foram criados e passaram.  
-* Critérios de aceitação da User Story foram atendidos.  
-* A aplicação está organizada e responsiva, garantindo boa experiência.  
-* A interface atende aos princípios de usabilidade, com navegação clara e consistente para o usuário final.  
-* Os elementos visuais seguem o padrão definido pelo time (design system ou guia de estilo).  
+* O código foi escrito, testado localmente e está limpo (padrões do time).
+* A documentação técnica foi atualizada pelos devs.
+* Integrado à branch principal (develop).
+* Todos os testes automatizados foram criados e passaram.
+* Critérios de aceitação da User Story foram atendidos.
+* A aplicação está organizada e responsiva, garantindo boa experiência.
+* A interface atende aos princípios de usabilidade, com navegação clara e consistente para o usuário final.
+* Os elementos visuais seguem o padrão definido pelo time (design system ou guia de estilo).
+* Não adiciona nenhuma nova issue no SonarQube.
 
 </details>
 
@@ -223,14 +252,15 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 ### **Sprint 3: Planejamento e Execução**
 
-* **Capacidade Estimada da Equipe por Sprint:** [Capacidade Estimada da Equipe]
-* **Meta da Sprint:** [Descreva a meta da Sprint 3]
-* **Previsão da Sprint (Extras, sem compromisso de entrega):** [Descreva as tarefas extras para a Sprint 3]
+* **Capacidade Estimada da Equipe por Sprint:** 60 points
+* **Meta da Sprint:** Entregar User Story Retroativa + de Medium Prioridade (Rank 5.1) e da Low Prioridade (Rank 6.1), totalizando 9 Story Points.
 
-| Rank | Prioridade | User Story | Estimativa | Sprint |
-| :--- | :--- | :--- | :--- | :--- |
-| | | | | |
-| | | | | |
+| Rank | Prioridade | User Story                                                                                                                                                                                                                                                                                                                                      | Estimativa | Sprint |
+| ---- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- | ------ |
+| -    | High       | Como Gerente de Projetos, quero que os relatórios de atividades e horas (diário/mensal, por projeto e comparativo anual) utilizem dados reais do banco de dados corporativo, para que eu possa confiar nas informações apresentadas e tomar decisões baseadas em dados corretos.                                                                | 3          | 3      |
+| 5.1  | Medium     | Como gerente, líder ou membro, quero visualizar as horas utilizadas por cada desenvolvedor, discriminadas por atividade e dia, para avaliar produtividade individual e detectar sobrecargas.                                                                                                                                                    | 3          | 3      |
+| 6.1  | Low        | Como Gerente de Projetos, quero cadastrar novos usuários no sistema, associando-os a um "Cargo" (título) e a um "Perfil de Acesso" (permissões), para que eles tenham acesso de acordo com seu perfil (Gerente, Líder ou Membro), garantindo que cada pessoa visualize apenas as informações relevantes e que dados sensíveis fiquem restritos. | 3          | 3      |
+
 
 ### Vídeo da aplicação e suas funcionalidades:
 
@@ -247,15 +277,16 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 <details>
   <summary><strong>Sprint 1</strong></summary>
 
-  <img width="1606" height="588" alt="image" src="img/burndown.png" />
+<img width="1567" height="550" alt="image" src="https://github.com/user-attachments/assets/2e36336f-b69e-4657-a4c4-1638487705cf" />
+
 
 </details>
 
 <details>
   <summary><strong>Sprint 2</strong></summary>
+  <img width="1581" height="574" alt="image" src="https://github.com/user-attachments/assets/252eb6a7-0788-48a2-af78-c7b4377b2de4" />
+
 </details>
-
-
 <details>
   <summary><strong>Sprint 3</strong></summary>
 </details>
@@ -266,8 +297,8 @@ Visualizar o [Modelo Físico da Sprint 3](/img/)
 
 - [x] 25/08 a 29/08 - Kick-off
 - [x] 08/09 a 28/09 - Primeira Sprint
-- [ ] 29/09 a 03/10- Sprint Review / Planning
-- [ ] 06/10 a 26/10 - Segunda Sprint
+- [x] 29/09 a 03/10- Sprint Review / Planning
+- [x] 06/10 a 26/10 - Segunda Sprint
 - [ ] 27/10 a 31/10 - Sprint Review / Planning
 - [ ] 03/11 a 23/11 - Terceira Sprint
 - [ ] 24/11 a 28/11 - Sprint Review 
@@ -440,12 +471,14 @@ Exemplo:
   </a>
 </div>
 
+<br>
+<br>
+<br>
+<br>
+<br>
 
-
-
-
-
-
-
-  
-
+<p align="center">
+© 2025 — *Necto / Projeto Athos Insight*</p>
+<p align="center">
+Desenvolvido no contexto educacional da Fatec São Paulo.
+</p>
