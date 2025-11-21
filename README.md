@@ -110,7 +110,7 @@ A solução está hospedada em uma máquina virtual Microsoft Azure, operando em
 
 | ID        | Tipo | Título                          | Descrição                                                                                                                             | Link |
 |-----------|------|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|------|
-| ATHOS-225 | RNF  | Segurança                        | Autenticação via token; criptografia de senhas e dados sensíveis.                                                                     | [ATHOS-225](Adihttps://athos-software.atlassian.net/wiki/spaces/ATHOS/pages/27066373/Matriz+de+Rastreabilidade+Requisito+Hist+ria+Tarefas#ATHOS-225-%E2%80%94-Seguran%C3%A7a-(RNF)cionar) |
+| ATHOS-225 | RNF  | Segurança                        | Autenticação via token; criptografia de senhas e dados sensíveis.                                                                     | [ATHOS-225](https://athos-software.atlassian.net/wiki/spaces/ATHOS/pages/27066373/Matriz+de+Rastreabilidade+Requisito+Hist+ria+Tarefas#ATHOS-225-%E2%80%94-Seguran%C3%A7a-(RNF).) |
 | ATHOS-224 | RNF  | Usabilidade e Responsividade     | Interface intuitiva e totalmente responsiva para todos os perfis de usuário e telas.                                                   | [ATHOS-224](https://athos-software.atlassian.net/wiki/spaces/ATHOS/pages/27066373/Matriz+de+Rastreabilidade+Requisito+Hist+ria+Tarefas#ATHOS-224-%E2%80%94-Usabilidade-e-Responsividade-(RNF)) |
 | ATHOS-223 | RNF  | Tecnologia e Arquitetura         | Python/Django; arquitetura flexível permitindo novos endpoints sem grandes refatorações.                                               | [ATHOS-223](https://athos-software.atlassian.net/wiki/spaces/ATHOS/pages/27066373/Matriz+de+Rastreabilidade+Requisito+Hist+ria+Tarefas#ATHOS-223-%E2%80%94-Tecnologia-e-Arquitetura-(RNF)) |
 | ATHOS-222 | RNF  | Disponibilidade dos Dados        | Disponibilidade mínima de 99% mensal, exceto manutenção programada.                                                                    | [ATHOS-222](https://athos-software.atlassian.net/wiki/spaces/ATHOS/pages/27066373/Matriz+de+Rastreabilidade+Requisito+Hist+ria+Tarefas#ATHOS-222-%E2%80%94-Disponibilidade-dos-Dados-(RNF)) |
@@ -482,6 +482,7 @@ Exemplo:
   <a href="https://github.com/AthosFatecSjc/docs" target="_blank" rel="noopener">
     <img src="https://img.shields.io/badge/Documentação-GitHub-181717?style=for-the-badge&logo=github" alt="Documentação GitHub">
   </a>
+  <br>
   <a href="https://athos-software.atlassian.net/wiki/x/aIAB" target="_blank" rel="noopener">
     <img src="https://img.shields.io/badge/Documentação-Jira-0A0A0A?style=for-the-badge&logo=jira&logoColor=2684FF" alt="Documentação Jira">
   </a>
