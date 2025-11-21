@@ -277,9 +277,11 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 [Assista pelo Youtube](https://youtu.be/) ou pelo seu [Reprodutor de Vídeos](/img/)
 
-Visualizar o [Wireframe da Sprint 3](/img/)
+Visualizar o [Wireframe da Sprint 3](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
-Visualizar o [Modelo Físico da Sprint 3](/img/)
+Visualizar o [Modelo OLAP Sprint 3](/img/OLAP.webp)
+</br>
+Visualizar o [Modelo OLTP Sprint 3](/img/OLTP.webp)
 
 </details>
 
