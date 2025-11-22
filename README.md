@@ -223,7 +223,9 @@ Um item de backlog é considerado "concluído" (Done) se:
 Visualizar o [Wireframe da Sprint 2](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
 Visualizar o [Modelo OLAP Sprint 2](/img/OLAP.webp)
+
 </br>
+
 Visualizar o [Modelo OLTP Sprint 2](/img/OLTP.webp)
 
 ### **Definition of Ready (DoR)**
@@ -279,9 +281,13 @@ Um item de backlog é considerado "concluído" (Done) se:
 
 Visualizar o [Wireframe da Sprint 3](https://www.figma.com/design/Vl267rAh8vitOhQZJw7Q2E/Athos?m=auto&t=El9wdyIkSuK8itIh-6)
 
-Visualizar o [Modelo OLAP Sprint 3](/img/OLAP.webp)
+Visualizar o [Modelo OLAP Sprint 3](/img/olap_v02.png)
+Baixar a [Documentacao OLAP Sprint 3](/pdf/documentacao_olap.pdf)
+
 </br>
-Visualizar o [Modelo OLTP Sprint 3](/img/OLTP.webp)
+
+Visualizar o [Modelo OLTP Sprint 3](/img/oltp%20_v02.png)
+Baixar a [Documentacao OLAP Sprint 3](/pdf/documentacao_oltp.pdf)
 
 </details>
 
@@ -313,9 +319,9 @@ Visualizar o [Modelo OLTP Sprint 3](/img/OLTP.webp)
 - [x] 29/09 a 03/10- Sprint Review / Planning
 - [x] 06/10 a 26/10 - Segunda Sprint
 - [x] 27/10 a 31/10 - Sprint Review / Planning
-- [ ] 03/11 a 23/11 - Terceira Sprint
-- [ ] 24/11 a 28/11 - Sprint Review
-- [ ] 04/12 - Feira de Soluções e Apresentação Final API
+- [x] 03/11 a 23/11 - Terceira Sprint
+- [x] 24/11 a 28/11 - Sprint Review
+- [x] 04/12 - Feira de Soluções e Apresentação Final API
 
 <br>
 
