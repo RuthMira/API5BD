@@ -308,6 +308,8 @@ Baixar a [Documentacao OLAP Sprint 3](/pdf/documentacao_oltp.pdf)
 </details>
 <details>
   <summary><strong>Sprint 3</strong></summary>
+  <img width="1605" height="503" alt="image" src="https://github.com/user-attachments/assets/7f22bf1a-b940-420f-8d6b-7f179986768e" />
+
 </details>
 
 <br>
