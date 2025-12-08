@@ -16,6 +16,7 @@
   <a href="#hourglass_flowing_sand-cronograma-da-api"> Cronograma </a>•
   <a href="#computer-tecnologias-utilizadas"> Tecnologias Utilizadas </a> •
   <a href="#gear-branch"> Estratégia de Branches e Padrão de Commit </a> • 
+  <a href="#gear-sonar"> SonarQube </a> •
   <a href="#gear-documentacoes"> Documentações </a> •
 
 </p>
@@ -483,7 +484,7 @@ Exemplo:
 
 <br>
 
-<h1 id="gear-documentacoes"> 📚  Monitoramento SonarQube </h1>
+<h1 id="gear-sonar"> 📚  Monitoramento SonarQube </h1>
    
 <div align="center">
   <p>Utilizamos o SonarQube no projeto para analisar automaticamente o código, identificar problemas e manter tudo mais limpo, seguro e padronizado, evitando retrabalho e facilitando a manutenção. Acesse a documentação completa em:</p>
