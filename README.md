@@ -483,6 +483,15 @@ Exemplo:
 
 <br>
 
+<h1 id="gear-documentacoes"> 📚  Monitoramento SonarQube </h1>
+   
+<div align="center">
+  <p>Utilizamos o SonarQube no projeto para analisar automaticamente o código, identificar problemas e manter tudo mais limpo, seguro e padronizado, evitando retrabalho e facilitando a manutenção. Acesse a documentação completa em:</p>
+  <a href="https://sonarcloud.io/project/overview?id=AthosFatecSjc_server" target="_blank" rel="noopener">
+<img src="https://img.shields.io/badge/SonarCloud-181717?style=for-the-badge&logo=sonarcloud" alt="SonarCloud">
+  </a>
+</div>
+
 <h1 id="gear-documentacoes"> 📚  Documentações </h1>
    
 <div align="center">
@@ -503,7 +512,7 @@ Exemplo:
 <br>
 
 <p align="center">
-© 2025 — *Necto / Projeto Athos Insight*</p>
+© 2025 — Necto / Projeto Athos Insight</p>
 <p align="center">
 Desenvolvido no contexto educacional da Fatec São Paulo.
 </p>
